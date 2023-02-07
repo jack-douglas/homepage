@@ -1,472 +1,477 @@
 {
-    "widget": {
-        "missing_type": "Falta el tipus de widget: {{type}}",
-        "api_error": "Error d'API",
-        "status": "Estat",
-        "information": "Informació",
-        "url": "URL",
-        "raw_error": "Error sense processar",
-        "response_data": "Dades de resposta"
-    },
-    "weather": {
-        "allow": "Feu clic per permetre",
-        "updating": "Actualitzant",
-        "wait": "Si us plau, espereu",
-        "current": "Localització actual"
-    },
-    "search": {
-        "placeholder": "Cercar…"
-    },
-    "transmission": {
-        "seed": "Llavors",
-        "download": "Descàrrega",
-        "upload": "Pujada",
-        "leech": "Company"
-    },
-    "sonarr": {
-        "wanted": "Volgut",
-        "queued": "En cua",
-        "series": "Sèries"
-    },
-    "speedtest": {
-        "ping": "Ping",
-        "upload": "Pujada",
-        "download": "Descàrrega"
-    },
-    "resources": {
-        "total": "Total",
-        "free": "Lliure",
-        "used": "Utilitzat",
-        "load": "Càrrega",
-        "cpu": "CPU",
-        "mem": "MEM"
-    },
-    "docker": {
-        "rx": "Rebut",
-        "tx": "Transmès",
-        "mem": "Memòria",
-        "cpu": "Processador",
-        "offline": "Fora de línia",
-        "error": "Error",
-        "unknown": "Desconegut"
-    },
-    "emby": {
-        "playing": "Reproduint",
-        "transcoding": "Transcodificant",
-        "bitrate": "Taxa de bits",
-        "no_active": "Sense reproduccions actives"
-    },
-    "tautulli": {
-        "playing": "Reproduint",
-        "transcoding": "Transcodificant",
-        "bitrate": "Taxa de bits",
-        "no_active": "Sense transmissions actives"
-    },
-    "nzbget": {
-        "rate": "Taxa",
-        "remaining": "Restant",
-        "downloaded": "Descarregat"
-    },
-    "sabnzbd": {
-        "rate": "Taxa",
-        "queue": "Cua",
-        "timeleft": "Temps restant"
-    },
-    "rutorrent": {
-        "active": "Actiu",
-        "upload": "Pujada",
-        "download": "Descàrrega"
-    },
-    "radarr": {
-        "wanted": "Volgut",
-        "queued": "En cua",
-        "movies": "Pel·lícules",
-        "missing": "Faltant"
-    },
-    "readarr": {
-        "wanted": "Volgut",
-        "queued": "En cua",
-        "books": "Llibres"
-    },
-    "ombi": {
-        "pending": "Pendent",
-        "approved": "Aprovat",
-        "available": "Disponible"
-    },
-    "jellyseerr": {
-        "pending": "Pendent",
-        "approved": "Aprovat",
-        "available": "Disponible"
-    },
-    "overseerr": {
-        "pending": "Pendent",
-        "approved": "Aprovat",
-        "available": "Disponible",
-        "processing": "Processant"
-    },
-    "pihole": {
-        "queries": "Consultes",
-        "blocked": "Bloquejat",
-        "gravity": "Gravity"
-    },
-    "portainer": {
-        "running": "Executant",
-        "stopped": "Aturat",
-        "total": "Total"
-    },
-    "traefik": {
-        "routers": "Encaminadors",
-        "services": "Serveis",
-        "middleware": "Middleware"
-    },
-    "npm": {
-        "total": "Total",
-        "enabled": "Activat",
-        "disabled": "Desactivat"
-    },
-    "coinmarketcap": {
-        "configure": "Configura una o més criptomonedes per fer el seguiment",
-        "1hour": "1 Hora",
-        "1day": "1 Dia",
-        "7days": "7 Dies",
-        "30days": "30 Dies"
-    },
-    "gotify": {
-        "apps": "Aplicacions",
-        "clients": "Clients",
-        "messages": "Missatges"
-    },
-    "prowlarr": {
-        "enableIndexers": "Indexadors",
-        "numberOfGrabs": "Captures",
-        "numberOfQueries": "Consultes",
-        "numberOfFailGrabs": "Captures fallides",
-        "numberOfFailQueries": "Consultes fallides"
-    },
-    "jackett": {
-        "configured": "Configurat",
-        "errored": "Amb errors"
-    },
-    "bazarr": {
-        "missingEpisodes": "Episodis que falten",
-        "missingMovies": "Pel·lícules que falten"
-    },
-    "lidarr": {
-        "wanted": "Volgut",
-        "queued": "En cua",
-        "albums": "Àlbums"
-    },
-    "adguard": {
-        "queries": "Consultes",
-        "blocked": "Bloquejat",
-        "filtered": "Filtrat",
-        "latency": "Latència"
-    },
-    "qbittorrent": {
-        "download": "Descàrrega",
-        "upload": "Pujada",
-        "leech": "Company",
-        "seed": "Llavors"
-    },
-    "mastodon": {
-        "user_count": "Usuaris",
-        "status_count": "Publicacions",
-        "domain_count": "Dominis"
-    },
-    "strelaysrv": {
-        "numActiveSessions": "Sessions",
-        "numConnections": "Connexions",
-        "dataRelayed": "Transmès",
-        "transferRate": "Velocitat"
-    },
-    "authentik": {
-        "users": "Usuaris",
-        "loginsLast24H": "Inicis de sessió (24h)",
-        "failedLoginsLast24H": "Errors d'inici de sessió (24h)"
-    },
-    "proxmox": {
-        "vms": "VMs",
-        "mem": "Memòria",
-        "cpu": "Processador",
-        "lxc": "LXC"
-    },
-    "unifi": {
-        "users": "Usuaris",
-        "uptime": "Temps actiu",
-        "days": "Dies",
-        "wan": "WAN",
-        "lan_users": "Usuaris LAN",
-        "wlan_users": "Usuaris WLAN",
-        "up": "ACTIU",
-        "down": "INACTIU",
-        "wait": "Si us plau, espereu",
-        "lan": "LAN",
-        "wlan": "WLAN",
-        "devices": "Dispositius",
-        "lan_devices": "Dispositius LAN",
-        "wlan_devices": "Dispositius WLAN",
-        "empty_data": "Subsystem status unknown"
-    },
-    "plex": {
-        "streams": "Transmissions actives",
-        "movies": "Pel·lícules",
-        "tv": "Programes de TV"
-    },
-    "glances": {
-        "cpu": "Processador",
-        "mem": "Memòria",
-        "wait": "Si us plau, espereu"
-    },
-    "changedetectionio": {
-        "totalObserved": "Total d'observats",
-        "diffsDetected": "Diferències detectades"
-    },
-    "wmo": {
-        "66-day": "Pluja gelada",
-        "95-day": "Tempesta",
-        "95-night": "Tempesta",
-        "96-day": "Tempesta amb calamarsa",
-        "0-day": "Assolellat",
-        "0-night": "Cel clar",
-        "1-day": "Majorment assolellat",
-        "1-night": "Majorment clar",
-        "2-day": "Parcialment ennuvolat",
-        "2-night": "Parcialment ennuvolat",
-        "3-day": "Ennuvolat",
-        "3-night": "Ennuvolat",
-        "45-day": "Boirós",
-        "45-night": "Boirós",
-        "48-day": "Boirós",
-        "48-night": "Boirós",
-        "51-day": "Ruixats lleugers",
-        "51-night": "Ruixats lleugers",
-        "53-day": "Ruixat",
-        "53-night": "Ruxiat",
-        "55-day": "Ruixat intens",
-        "55-night": "Ruixat intens",
-        "56-day": "Lleuger ruixat gelat",
-        "56-night": "Lleuger ruixat gelat",
-        "65-night": "Pluja intensa",
-        "57-day": "Ruixat gelat",
-        "57-night": "Ruixat gelat",
-        "61-day": "Pluja lleugera",
-        "61-night": "Pluja lleugera",
-        "63-day": "Pluja",
-        "63-night": "Pluja",
-        "65-day": "Pluja intensa",
-        "66-night": "Pluja gelada",
-        "67-day": "Pluja gelada",
-        "67-night": "Pluja gelada",
-        "71-day": "Neu lleugera",
-        "71-night": "Neu lleugera",
-        "73-day": "Neu",
-        "73-night": "Neu",
-        "75-day": "Neu intensa",
-        "75-night": "Neu intensa",
-        "77-day": "Neu lleugera",
-        "77-night": "Neu lleugera",
-        "80-day": "Plovisqueig",
-        "80-night": "Plovisqueig",
-        "81-day": "Xàfecs",
-        "81-night": "Xàfecs",
-        "82-day": "Xàfecs intensos",
-        "82-night": "Xàfecs intensos",
-        "85-day": "Xàfecs de neu",
-        "85-night": "Xàfecs de neu",
-        "86-day": "Xàfecs de neu",
-        "86-night": "Xàfecs de neu",
-        "96-night": "Tempesta amb calamarsa",
-        "99-day": "Tempesta amb calamarsa",
-        "99-night": "Tempesta amb calamarsa"
-    },
-    "quicklaunch": {
-        "bookmark": "Marcador",
-        "service": "Servei",
-        "search": "Search",
-        "custom": "Custom"
-    },
-    "homebridge": {
-        "available_update": "Sistema",
-        "updates": "Actualitzacions",
-        "update_available": "Actualització disponible",
-        "up_to_date": "Actualitzat",
-        "child_bridges": "Child Bridges",
-        "child_bridges_status": "{{ok}}/{{total}}"
-    },
-    "autobrr": {
-        "approvedPushes": "Aprovat",
-        "rejectedPushes": "Rebutjat",
-        "filters": "Filtres",
-        "indexers": "Indexadors"
-    },
-    "watchtower": {
-        "containers_scanned": "Escanejat",
-        "containers_updated": "Actualitzat",
-        "containers_failed": "Error"
-    },
-    "tubearchivist": {
-        "downloads": "Cua",
-        "videos": "Vídeos",
-        "channels": "Canals",
-        "playlists": "Llistes de reproducció"
-    },
-    "truenas": {
-        "load": "Càrrega del sistema",
-        "uptime": "Temps actiu",
-        "alerts": "Alertes",
-        "time": "{{value, number(style: unit; unitDisplay: long;)}}"
-    },
-    "navidrome": {
-        "nothing_streaming": "Cap reproducció activa",
-        "please_wait": "Espereu si us plau"
-    },
-    "pyload": {
-        "speed": "Velocitat",
-        "active": "Actiu",
-        "queue": "Cua",
-        "total": "Total"
-    },
-    "gluetun": {
-        "public_ip": "IP Pública",
-        "region": "Regió",
-        "country": "País"
-    },
-    "hdhomerun": {
-        "channels": "Canals",
-        "hd": "HD"
-    },
-    "ping": {
-        "error": "Error",
-        "ping": "Ping"
-    },
-    "scrutiny": {
-        "passed": "Aprobat",
-        "failed": "Error",
-        "unknown": "Desconegut"
-    },
-    "paperlessngx": {
-        "inbox": "Safata d'entrada",
-        "total": "Total"
-    },
-    "deluge": {
-        "seed": "Llavor",
-        "download": "Descàrrega",
-        "upload": "Pujada",
-        "leech": "Company"
-    },
-    "flood": {
-        "download": "Descarregar",
-        "upload": "Pujada",
-        "leech": "Company",
-        "seed": "Llavor"
-    },
-    "tdarr": {
-        "queue": "Queue",
-        "processed": "Processed",
-        "errored": "Errored",
-        "saved": "Saved"
-    },
-    "miniflux": {
-        "read": "Read",
-        "unread": "Unread"
-    },
-    "nextdns": {
-        "wait": "Please Wait",
-        "no_devices": "No Device Data Received"
-    },
-    "common": {
-        "bibyterate": "{{value, rate(bits: false; binary: true)}}",
-        "bibitrate": "{{value, rate(bits: true; binary: true)}}"
-    },
-    "omada": {
-        "connectedAp": "Connected APs",
-        "activeUser": "Active devices",
-        "alerts": "Alerts",
-        "connectedGateway": "Connected gateways",
-        "connectedSwitches": "Connected switches"
-    },
-    "downloadstation": {
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed"
-    },
-    "mikrotik": {
-        "cpuLoad": "CPU Load",
-        "memoryUsed": "Memory Used",
-        "uptime": "Uptime",
-        "numberOfLeases": "Leases"
-    },
-    "xteve": {
-        "streams_all": "All Streams",
-        "streams_active": "Active Streams",
-        "streams_xepg": "XEPG Channels"
-    },
-    "opnsense": {
-        "cpu": "CPU Load",
-        "memory": "Active Memory",
-        "wanUpload": "WAN Upload",
-        "wanDownload": "WAN Download"
-    },
-    "moonraker": {
-        "printer_state": "Printer State",
-        "print_status": "Print Status",
-        "print_progress": "Progress",
-        "layers": "Layers"
-    },
-    "medusa": {
-        "wanted": "Wanted",
-        "queued": "Queued",
-        "series": "Series"
-    },
-    "octoprint": {
-        "printer_state": "Status",
-        "temp_tool": "Tool temp",
-        "temp_bed": "Bed temp",
-        "job_completion": "Completion"
-    },
-    "cloudflared": {
-        "origin_ip": "Origin IP",
-        "status": "Status"
-    },
-    "proxmoxbackupserver": {
-        "datastore_usage": "Datastore",
-        "failed_tasks_24h": "Failed Tasks 24h",
-        "cpu_usage": "CPU",
-        "memory_usage": "Memory"
-    },
-    "immich": {
-        "users": "Users",
-        "photos": "Photos",
-        "videos": "Videos",
-        "storage": "Storage"
-    },
-    "uptimekuma": {
-        "m": "m",
-        "up": "Sites Up",
-        "down": "Sites Down",
-        "uptime": "Uptime",
-        "incident": "Incident"
-    },
-    "komga": {
-        "libraries": "Libraries",
-        "series": "Series",
-        "books": "Books"
-    },
-    "mylar": {
-        "series": "Series",
-        "issues": "Issues",
-        "wanted": "Wanted"
-    },
-    "photoprism": {
-        "albums": "Albums",
-        "photos": "Photos",
-        "videos": "Videos",
-        "people": "People"
-    },
-    "diskstation": {
-        "days": "Days",
-        "uptime": "Uptime",
-        "volumeAvailable": "Available"
-    }
+  "widget": {
+    "missing_type": "Falta el tipus de widget: {{type}}",
+    "api_error": "Error d'API",
+    "status": "Estat",
+    "information": "Informació",
+    "url": "URL",
+    "raw_error": "Error sense processar",
+    "response_data": "Dades de resposta"
+  },
+  "weather": {
+    "allow": "Feu clic per permetre",
+    "updating": "Actualitzant",
+    "wait": "Si us plau, espereu",
+    "current": "Localització actual"
+  },
+  "search": {
+    "placeholder": "Cercar…"
+  },
+  "transmission": {
+    "seed": "Llavors",
+    "download": "Descàrrega",
+    "upload": "Pujada",
+    "leech": "Company"
+  },
+  "sonarr": {
+    "wanted": "Volgut",
+    "queued": "En cua",
+    "series": "Sèries"
+  },
+  "speedtest": {
+    "ping": "Ping",
+    "upload": "Pujada",
+    "download": "Descàrrega"
+  },
+  "resources": {
+    "total": "Total",
+    "free": "Lliure",
+    "used": "Utilitzat",
+    "load": "Càrrega",
+    "cpu": "CPU",
+    "mem": "MEM"
+  },
+  "docker": {
+    "rx": "Rebut",
+    "tx": "Transmès",
+    "mem": "Memòria",
+    "cpu": "Processador",
+    "offline": "Fora de línia",
+    "error": "Error",
+    "unknown": "Desconegut"
+  },
+  "emby": {
+    "playing": "Reproduint",
+    "transcoding": "Transcodificant",
+    "bitrate": "Taxa de bits",
+    "no_active": "Sense reproduccions actives"
+  },
+  "tautulli": {
+    "playing": "Reproduint",
+    "transcoding": "Transcodificant",
+    "bitrate": "Taxa de bits",
+    "no_active": "Sense transmissions actives"
+  },
+  "nzbget": {
+    "rate": "Taxa",
+    "remaining": "Restant",
+    "downloaded": "Descarregat"
+  },
+  "sabnzbd": {
+    "rate": "Taxa",
+    "queue": "Cua",
+    "timeleft": "Temps restant"
+  },
+  "rutorrent": {
+    "active": "Actiu",
+    "upload": "Pujada",
+    "download": "Descàrrega"
+  },
+  "radarr": {
+    "wanted": "Volgut",
+    "queued": "En cua",
+    "movies": "Pel·lícules",
+    "missing": "Faltant"
+  },
+  "readarr": {
+    "wanted": "Volgut",
+    "queued": "En cua",
+    "books": "Llibres"
+  },
+  "ombi": {
+    "pending": "Pendent",
+    "approved": "Aprovat",
+    "available": "Disponible"
+  },
+  "jellyseerr": {
+    "pending": "Pendent",
+    "approved": "Aprovat",
+    "available": "Disponible"
+  },
+  "overseerr": {
+    "pending": "Pendent",
+    "approved": "Aprovat",
+    "available": "Disponible",
+    "processing": "Processant"
+  },
+  "pihole": {
+    "queries": "Consultes",
+    "blocked": "Bloquejat",
+    "gravity": "Gravity"
+  },
+  "portainer": {
+    "running": "Executant",
+    "stopped": "Aturat",
+    "total": "Total"
+  },
+  "traefik": {
+    "routers": "Encaminadors",
+    "services": "Serveis",
+    "middleware": "Middleware"
+  },
+  "npm": {
+    "total": "Total",
+    "enabled": "Activat",
+    "disabled": "Desactivat"
+  },
+  "coinmarketcap": {
+    "configure": "Configura una o més criptomonedes per fer el seguiment",
+    "1hour": "1 Hora",
+    "1day": "1 Dia",
+    "7days": "7 Dies",
+    "30days": "30 Dies"
+  },
+  "gotify": {
+    "apps": "Aplicacions",
+    "clients": "Clients",
+    "messages": "Missatges"
+  },
+  "prowlarr": {
+    "enableIndexers": "Indexadors",
+    "numberOfGrabs": "Captures",
+    "numberOfQueries": "Consultes",
+    "numberOfFailGrabs": "Captures fallides",
+    "numberOfFailQueries": "Consultes fallides"
+  },
+  "jackett": {
+    "configured": "Configurat",
+    "errored": "Amb errors"
+  },
+  "bazarr": {
+    "missingEpisodes": "Episodis que falten",
+    "missingMovies": "Pel·lícules que falten"
+  },
+  "lidarr": {
+    "wanted": "Volgut",
+    "queued": "En cua",
+    "albums": "Àlbums"
+  },
+  "adguard": {
+    "queries": "Consultes",
+    "blocked": "Bloquejat",
+    "filtered": "Filtrat",
+    "latency": "Latència"
+  },
+  "qbittorrent": {
+    "download": "Descàrrega",
+    "upload": "Pujada",
+    "leech": "Company",
+    "seed": "Llavors"
+  },
+  "mastodon": {
+    "user_count": "Usuaris",
+    "status_count": "Publicacions",
+    "domain_count": "Dominis"
+  },
+  "strelaysrv": {
+    "numActiveSessions": "Sessions",
+    "numConnections": "Connexions",
+    "dataRelayed": "Transmès",
+    "transferRate": "Velocitat"
+  },
+  "authentik": {
+    "users": "Usuaris",
+    "loginsLast24H": "Inicis de sessió (24h)",
+    "failedLoginsLast24H": "Errors d'inici de sessió (24h)"
+  },
+  "proxmox": {
+    "vms": "VMs",
+    "mem": "Memòria",
+    "cpu": "Processador",
+    "lxc": "LXC"
+  },
+  "unifi": {
+    "users": "Usuaris",
+    "uptime": "Temps actiu",
+    "days": "Dies",
+    "wan": "WAN",
+    "lan_users": "Usuaris LAN",
+    "wlan_users": "Usuaris WLAN",
+    "up": "ACTIU",
+    "down": "INACTIU",
+    "wait": "Si us plau, espereu",
+    "lan": "LAN",
+    "wlan": "WLAN",
+    "devices": "Dispositius",
+    "lan_devices": "Dispositius LAN",
+    "wlan_devices": "Dispositius WLAN",
+    "empty_data": "Subsystem status unknown"
+  },
+  "plex": {
+    "streams": "Transmissions actives",
+    "movies": "Pel·lícules",
+    "tv": "Programes de TV"
+  },
+  "glances": {
+    "cpu": "Processador",
+    "mem": "Memòria",
+    "wait": "Si us plau, espereu"
+  },
+  "changedetectionio": {
+    "totalObserved": "Total d'observats",
+    "diffsDetected": "Diferències detectades"
+  },
+  "wmo": {
+    "66-day": "Pluja gelada",
+    "95-day": "Tempesta",
+    "95-night": "Tempesta",
+    "96-day": "Tempesta amb calamarsa",
+    "0-day": "Assolellat",
+    "0-night": "Cel clar",
+    "1-day": "Majorment assolellat",
+    "1-night": "Majorment clar",
+    "2-day": "Parcialment ennuvolat",
+    "2-night": "Parcialment ennuvolat",
+    "3-day": "Ennuvolat",
+    "3-night": "Ennuvolat",
+    "45-day": "Boirós",
+    "45-night": "Boirós",
+    "48-day": "Boirós",
+    "48-night": "Boirós",
+    "51-day": "Ruixats lleugers",
+    "51-night": "Ruixats lleugers",
+    "53-day": "Ruixat",
+    "53-night": "Ruxiat",
+    "55-day": "Ruixat intens",
+    "55-night": "Ruixat intens",
+    "56-day": "Lleuger ruixat gelat",
+    "56-night": "Lleuger ruixat gelat",
+    "65-night": "Pluja intensa",
+    "57-day": "Ruixat gelat",
+    "57-night": "Ruixat gelat",
+    "61-day": "Pluja lleugera",
+    "61-night": "Pluja lleugera",
+    "63-day": "Pluja",
+    "63-night": "Pluja",
+    "65-day": "Pluja intensa",
+    "66-night": "Pluja gelada",
+    "67-day": "Pluja gelada",
+    "67-night": "Pluja gelada",
+    "71-day": "Neu lleugera",
+    "71-night": "Neu lleugera",
+    "73-day": "Neu",
+    "73-night": "Neu",
+    "75-day": "Neu intensa",
+    "75-night": "Neu intensa",
+    "77-day": "Neu lleugera",
+    "77-night": "Neu lleugera",
+    "80-day": "Plovisqueig",
+    "80-night": "Plovisqueig",
+    "81-day": "Xàfecs",
+    "81-night": "Xàfecs",
+    "82-day": "Xàfecs intensos",
+    "82-night": "Xàfecs intensos",
+    "85-day": "Xàfecs de neu",
+    "85-night": "Xàfecs de neu",
+    "86-day": "Xàfecs de neu",
+    "86-night": "Xàfecs de neu",
+    "96-night": "Tempesta amb calamarsa",
+    "99-day": "Tempesta amb calamarsa",
+    "99-night": "Tempesta amb calamarsa"
+  },
+  "quicklaunch": {
+    "bookmark": "Marcador",
+    "service": "Servei",
+    "search": "Search",
+    "custom": "Custom"
+  },
+  "homebridge": {
+    "available_update": "Sistema",
+    "updates": "Actualitzacions",
+    "update_available": "Actualització disponible",
+    "up_to_date": "Actualitzat",
+    "child_bridges": "Child Bridges",
+    "child_bridges_status": "{{ok}}/{{total}}"
+  },
+  "autobrr": {
+    "approvedPushes": "Aprovat",
+    "rejectedPushes": "Rebutjat",
+    "filters": "Filtres",
+    "indexers": "Indexadors"
+  },
+  "watchtower": {
+    "containers_scanned": "Escanejat",
+    "containers_updated": "Actualitzat",
+    "containers_failed": "Error"
+  },
+  "tubearchivist": {
+    "downloads": "Cua",
+    "videos": "Vídeos",
+    "channels": "Canals",
+    "playlists": "Llistes de reproducció"
+  },
+  "truenas": {
+    "load": "Càrrega del sistema",
+    "uptime": "Temps actiu",
+    "alerts": "Alertes",
+    "time": "{{value, number(style: unit; unitDisplay: long;)}}"
+  },
+  "navidrome": {
+    "nothing_streaming": "Cap reproducció activa",
+    "please_wait": "Espereu si us plau"
+  },
+  "pyload": {
+    "speed": "Velocitat",
+    "active": "Actiu",
+    "queue": "Cua",
+    "total": "Total"
+  },
+  "gluetun": {
+    "public_ip": "IP Pública",
+    "region": "Regió",
+    "country": "País"
+  },
+  "hdhomerun": {
+    "channels": "Canals",
+    "hd": "HD"
+  },
+  "ping": {
+    "error": "Error",
+    "ping": "Ping"
+  },
+  "scrutiny": {
+    "passed": "Aprobat",
+    "failed": "Error",
+    "unknown": "Desconegut"
+  },
+  "paperlessngx": {
+    "inbox": "Safata d'entrada",
+    "total": "Total"
+  },
+  "deluge": {
+    "seed": "Llavor",
+    "download": "Descàrrega",
+    "upload": "Pujada",
+    "leech": "Company"
+  },
+  "flood": {
+    "download": "Descarregar",
+    "upload": "Pujada",
+    "leech": "Company",
+    "seed": "Llavor"
+  },
+  "tdarr": {
+    "queue": "Queue",
+    "processed": "Processed",
+    "errored": "Errored",
+    "saved": "Saved"
+  },
+  "miniflux": {
+    "read": "Read",
+    "unread": "Unread"
+  },
+  "nextdns": {
+    "wait": "Please Wait",
+    "no_devices": "No Device Data Received"
+  },
+  "common": {
+    "bibyterate": "{{value, rate(bits: false; binary: true)}}",
+    "bibitrate": "{{value, rate(bits: true; binary: true)}}"
+  },
+  "omada": {
+    "connectedAp": "Connected APs",
+    "activeUser": "Active devices",
+    "alerts": "Alerts",
+    "connectedGateway": "Connected gateways",
+    "connectedSwitches": "Connected switches"
+  },
+  "downloadstation": {
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed"
+  },
+  "mikrotik": {
+    "cpuLoad": "CPU Load",
+    "memoryUsed": "Memory Used",
+    "uptime": "Uptime",
+    "numberOfLeases": "Leases"
+  },
+  "xteve": {
+    "streams_all": "All Streams",
+    "streams_active": "Active Streams",
+    "streams_xepg": "XEPG Channels"
+  },
+  "opnsense": {
+    "cpu": "CPU Load",
+    "memory": "Active Memory",
+    "wanUpload": "WAN Upload",
+    "wanDownload": "WAN Download"
+  },
+  "moonraker": {
+    "printer_state": "Printer State",
+    "print_status": "Print Status",
+    "print_progress": "Progress",
+    "layers": "Layers"
+  },
+  "medusa": {
+    "wanted": "Wanted",
+    "queued": "Queued",
+    "series": "Series"
+  },
+  "octoprint": {
+    "printer_state": "Status",
+    "temp_tool": "Tool temp",
+    "temp_bed": "Bed temp",
+    "job_completion": "Completion"
+  },
+  "cloudflared": {
+    "origin_ip": "Origin IP",
+    "status": "Status"
+  },
+  "proxmoxbackupserver": {
+    "datastore_usage": "Datastore",
+    "failed_tasks_24h": "Failed Tasks 24h",
+    "cpu_usage": "CPU",
+    "memory_usage": "Memory"
+  },
+  "immich": {
+    "users": "Users",
+    "photos": "Photos",
+    "videos": "Videos",
+    "storage": "Storage"
+  },
+  "uptimekuma": {
+    "m": "m",
+    "up": "Sites Up",
+    "down": "Sites Down",
+    "uptime": "Uptime",
+    "incident": "Incident"
+  },
+  "komga": {
+    "libraries": "Libraries",
+    "series": "Series",
+    "books": "Books"
+  },
+  "mylar": {
+    "series": "Series",
+    "issues": "Issues",
+    "wanted": "Wanted"
+  },
+  "photoprism": {
+    "albums": "Albums",
+    "photos": "Photos",
+    "videos": "Videos",
+    "people": "People"
+  },
+  "diskstation": {
+    "days": "Days",
+    "uptime": "Uptime",
+    "volumeAvailable": "Available"
+  },
+  "spaceflight": {
+    "net": "Net",
+    "mission": "Mission",
+    "status": "Status"
+  }
 }

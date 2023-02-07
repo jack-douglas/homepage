@@ -1,472 +1,477 @@
 {
-    "readarr": {
-        "books": "పుస్తకాలు",
-        "wanted": "కావలెను",
-        "queued": "క్యూయూఎడ్"
-    },
-    "adguard": {
-        "blocked": "నిరోధించబడింది",
-        "filtered": "ఫిల్టర్ చేయబడింది",
-        "latency": "జాప్యం",
-        "queries": "ప్రశ్నలు"
-    },
-    "strelaysrv": {
-        "numActiveSessions": "సెషన్స్",
-        "numConnections": "కనెక్షన్లు",
-        "dataRelayed": "రెలయెడఁ",
-        "transferRate": "రేటు"
-    },
-    "widget": {
-        "missing_type": "విడ్జెట్ లేదు: {{type}}",
-        "api_error": "API లోపం",
-        "status": "హోదా",
-        "information": "Information",
-        "url": "URL",
-        "raw_error": "Raw Error",
-        "response_data": "Response Data"
-    },
-    "weather": {
-        "current": "ప్రస్తుత స్తలం",
-        "allow": "అనుమతించడానికి క్లిక్ చేయండి",
-        "updating": "నవీకరిస్తోంది",
-        "wait": "దయచేసి వేచి ఉండండి"
-    },
-    "search": {
-        "placeholder": "వెతకండి…"
-    },
-    "resources": {
-        "cpu": "సీపియూ",
-        "total": "మొత్తం",
-        "free": "మిగిలింది",
-        "used": "ఉపయోగించబడిన",
-        "load": "లోడ్",
-        "mem": "MEM"
-    },
-    "docker": {
-        "rx": "RX",
-        "tx": "TX",
-        "mem": "MEM",
-        "cpu": "సీపియూ",
-        "offline": "ఆఫ్‌లైన్",
-        "error": "Error",
-        "unknown": "Unknown"
-    },
-    "emby": {
-        "playing": "ఆడుతున్నారు",
-        "transcoding": "ట్రాన్స్‌కోడింగ్",
-        "bitrate": "బిట్రేట్",
-        "no_active": "యాక్టివ్ స్ట్రీమ్‌లు లేవు"
-    },
-    "tautulli": {
-        "playing": "ఆడుతున్నారు",
-        "transcoding": "ట్రాన్స్‌కోడింగ్",
-        "bitrate": "బిట్రేట్",
-        "no_active": "యాక్టివ్ స్ట్రీమ్‌లు లేవు"
-    },
-    "nzbget": {
-        "rate": "రేట్",
-        "remaining": "మిగిలింది",
-        "downloaded": "డౌన్‌లోడ్ చేయబడింది"
-    },
-    "sabnzbd": {
-        "rate": "రేట్",
-        "queue": "వరుస",
-        "timeleft": "మిగిలి వున్న సమయం"
-    },
-    "rutorrent": {
-        "active": "చురుకుగా",
-        "upload": "అప్‌లోడ్",
-        "download": "డౌన్‌లోడ్"
-    },
-    "transmission": {
-        "download": "డౌన్‌లోడ్",
-        "upload": "అప్‌లోడ్",
-        "leech": "జలగ",
-        "seed": "సీడ్"
-    },
-    "qbittorrent": {
-        "download": "డౌన్‌లోడ్",
-        "upload": "అప్లోడ్",
-        "leech": "లీచ్",
-        "seed": "సీడ్"
-    },
-    "sonarr": {
-        "wanted": "కావలెను",
-        "queued": "క్యూయూఎడ్",
-        "series": "సిరీస్"
-    },
-    "radarr": {
-        "wanted": "కావలెను",
-        "queued": "క్యూయూఎడ్",
-        "movies": "సినిమాలు",
-        "missing": "మిస్సింగ్"
-    },
-    "lidarr": {
-        "wanted": "కావలెను",
-        "queued": "క్యూయూఎడ్",
-        "albums": "ఆల్బములు"
-    },
-    "bazarr": {
-        "missingEpisodes": "ఎపిసోడ్‌లు లేవు",
-        "missingMovies": "సినిమాలు లేవు"
-    },
-    "ombi": {
-        "pending": "పెండింగ్",
-        "approved": "ఆమోదించబడింది",
-        "available": "అందుబాటులో వున్నవి"
-    },
-    "jellyseerr": {
-        "pending": "పెండింగ్",
-        "approved": "ఆమోదించబడింది",
-        "available": "అందుబాటులో"
-    },
-    "overseerr": {
-        "pending": "పెండింగ్",
-        "approved": "ఆమోదించబడింది",
-        "available": "అందుబాటులో",
-        "processing": "Processing"
-    },
-    "pihole": {
-        "queries": "ప్రశ్నలు",
-        "blocked": "నిరోధించబడింది",
-        "gravity": "గురుత్వాకర్షణ"
-    },
-    "speedtest": {
-        "upload": "అప్లోడ్",
-        "download": "డౌన్‌లోడ్",
-        "ping": "పింగ్"
-    },
-    "portainer": {
-        "running": "నడుస్తున్నవి",
-        "stopped": "ఆగిపోయినవి",
-        "total": "మొత్తం"
-    },
-    "traefik": {
-        "routers": "రౌటర్లు",
-        "services": "సేవలు",
-        "middleware": "మిడిల్వేర్"
-    },
-    "npm": {
-        "enabled": "ప్రారంభించబడింది",
-        "disabled": "డిసేబ్లెడ్",
-        "total": "మొత్తం"
-    },
-    "coinmarketcap": {
-        "configure": "ట్రాక్ చేయడానికి ఒకటి లేదా అంతకంటే ఎక్కువ క్రిప్టో కరెన్సీలను కాన్ఫిగర్ చేయండి",
-        "1hour": "1 గంట",
-        "1day": "1 రోజు",
-        "7days": "7 రోజులు",
-        "30days": "30 రోజులు"
-    },
-    "gotify": {
-        "apps": "అప్లికేషన్లు",
-        "clients": "ఖాతాదారులు",
-        "messages": "సందేశాలు"
-    },
-    "prowlarr": {
-        "enableIndexers": "సూచికలు",
-        "numberOfGrabs": "గ్రాబ్స్",
-        "numberOfQueries": "ప్రశ్నలు",
-        "numberOfFailGrabs": "ఫెయిల్ గ్రాబ్స్",
-        "numberOfFailQueries": "విఫలమైన ప్రశ్నలు"
-    },
-    "jackett": {
-        "configured": "కాన్ఫిగర్ చేయబడింది",
-        "errored": "పొరపాటు జరిగింది"
-    },
-    "mastodon": {
-        "user_count": "వినియోగదారులు",
-        "status_count": "పోస్ట్‌లు",
-        "domain_count": "డొమైన్‌లు"
-    },
-    "authentik": {
-        "users": "వినియోగదారులు",
-        "loginsLast24H": "లాగిన్లు (24గం)",
-        "failedLoginsLast24H": "విఫలమైన లాగిన్‌లు (24గం)"
-    },
-    "proxmox": {
-        "mem": "MEM",
-        "cpu": "సీపియూ",
-        "lxc": "LXC",
-        "vms": "విఎంలు"
-    },
-    "unifi": {
-        "users": "వినియోగదారులు",
-        "uptime": "సిస్టమ్ సమయము",
-        "days": "రోజులు",
-        "wan": "WAN",
-        "lan_users": "LAN వినియోగదారులు",
-        "wlan_users": "WLAN వినియోగదారులు",
-        "up": "అప్",
-        "down": "డౌన్",
-        "wait": "దయచేసి వేచి ఉండండి",
-        "lan": "లాన్",
-        "wlan": "WLAN",
-        "devices": "పరికరాలు",
-        "lan_devices": "LAN పరికరాలు",
-        "wlan_devices": "WLAN పరికరాలు",
-        "empty_data": "Subsystem status unknown"
-    },
-    "plex": {
-        "streams": "యాక్టివ్ స్ట్రీమ్‌లు",
-        "movies": "సినిమాలు",
-        "tv": "దూరదర్శిని కార్యక్రమాలు"
-    },
-    "glances": {
-        "cpu": "సీపియూ",
-        "mem": "MEM",
-        "wait": "దయచేసి వేచి ఉండండి"
-    },
-    "changedetectionio": {
-        "totalObserved": "మొత్తం గమనించబడింది",
-        "diffsDetected": "తేడాలు గుర్తించబడ్డాయి"
-    },
-    "wmo": {
-        "0-day": "సన్నీ",
-        "0-night": "స్పష్టమైన",
-        "57-night": "గడ్డకట్టే చినుకులు",
-        "73-day": "మంచు",
-        "73-night": "మంచు",
-        "75-day": "భారీ మంచు",
-        "75-night": "భారీ మంచు",
-        "77-day": "మంచు గింజలు",
-        "77-night": "మంచు గింజలు",
-        "80-day": "తేలికపాటి జల్లులు",
-        "80-night": "తేలికపాటి జల్లులు",
-        "81-day": "జల్లులు",
-        "81-night": "జల్లులు",
-        "82-day": "భారీ వర్షాలు",
-        "82-night": "భారీ వర్షాలు",
-        "85-day": "మంచు జల్లులు",
-        "85-night": "మంచు జల్లులు",
-        "1-day": "ప్రధానంగా ఎండ",
-        "1-night": "ప్రధానంగా స్పష్టంగా",
-        "2-day": "పాక్షికంగా మేఘావృతమై ఉంటుంది",
-        "2-night": "పాక్షికంగా మేఘావృతమై ఉంటుంది",
-        "3-day": "మేఘావృతం",
-        "3-night": "మేఘావృతం",
-        "45-day": "పొగమంచు",
-        "45-night": "పొగమంచు",
-        "48-day": "పొగమంచు",
-        "48-night": "పొగమంచు",
-        "51-day": "తేలికపాటి చినుకులు",
-        "51-night": "తేలికపాటి చినుకులు",
-        "53-day": "చినుకులు",
-        "53-night": "చినుకులు",
-        "55-day": "భారీ చినుకులు",
-        "55-night": "భారీ చినుకులు",
-        "56-day": "తేలికపాటి గడ్డకట్టే చినుకులు",
-        "56-night": "తేలికపాటి గడ్డకట్టే చినుకులు",
-        "57-day": "గడ్డకట్టే చినుకులు",
-        "61-day": "తేలికపాటి వర్షం",
-        "61-night": "తేలికపాటి వర్షం",
-        "63-day": "వర్షం",
-        "63-night": "వర్షం",
-        "65-day": "భారీవర్షం",
-        "65-night": "భారీవర్షం",
-        "66-day": "గడ్డకట్టే వర్షం",
-        "66-night": "గడ్డకట్టే వర్షం",
-        "67-day": "గడ్డకట్టే వర్షం",
-        "67-night": "గడ్డకట్టే వర్షం",
-        "71-day": "తేలికపాటి మంచు",
-        "71-night": "తేలికపాటి మంచు",
-        "86-day": "మంచు జల్లులు",
-        "86-night": "మంచు జల్లులు",
-        "95-day": "ఉరుము",
-        "95-night": "ఉరుము",
-        "96-day": "వడగళ్లతో కూడిన ఉరుములతో కూడిన వర్షం",
-        "96-night": "వడగళ్లతో కూడిన ఉరుములతో కూడిన వర్షం",
-        "99-day": "వడగళ్లతో కూడిన ఉరుములతో కూడిన వర్షం",
-        "99-night": "వడగళ్లతో కూడిన ఉరుములతో కూడిన వర్షం"
-    },
-    "quicklaunch": {
-        "bookmark": "బుక్మార్క్",
-        "service": "సేవ",
-        "search": "Search",
-        "custom": "Custom"
-    },
-    "homebridge": {
-        "available_update": "వ్యవస్థ",
-        "updates": "నవీకరణలు",
-        "update_available": "అందుబాటులో నవీకరణ",
-        "up_to_date": "తాజాగా",
-        "child_bridges": "పిల్ల వంతెనలు",
-        "child_bridges_status": "{{ok}}/{{total}}"
-    },
-    "autobrr": {
-        "rejectedPushes": "తిరస్కరించారు",
-        "approvedPushes": "ఆమోదించబడింది",
-        "filters": "ఫిల్టర్లు",
-        "indexers": "సూచికలు"
-    },
-    "watchtower": {
-        "containers_scanned": "స్కాన్ చేశారు",
-        "containers_updated": "నవీకరించబడింది",
-        "containers_failed": "విఫలమయ్యారు"
-    },
-    "tubearchivist": {
-        "downloads": "Queue",
-        "videos": "Videos",
-        "channels": "Channels",
-        "playlists": "Playlists"
-    },
-    "truenas": {
-        "load": "System Load",
-        "uptime": "Uptime",
-        "alerts": "Alerts",
-        "time": "{{value, number(style: unit; unitDisplay: long;)}}"
-    },
-    "navidrome": {
-        "nothing_streaming": "No Active Streams",
-        "please_wait": "Please Wait"
-    },
-    "pyload": {
-        "speed": "Speed",
-        "active": "Active",
-        "queue": "Queue",
-        "total": "Total"
-    },
-    "gluetun": {
-        "public_ip": "Public IP",
-        "region": "Region",
-        "country": "Country"
-    },
-    "hdhomerun": {
-        "channels": "Channels",
-        "hd": "HD"
-    },
-    "ping": {
-        "error": "Error",
-        "ping": "Ping"
-    },
-    "scrutiny": {
-        "passed": "Passed",
-        "failed": "Failed",
-        "unknown": "Unknown"
-    },
-    "paperlessngx": {
-        "inbox": "Inbox",
-        "total": "Total"
-    },
-    "deluge": {
-        "seed": "Seed",
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech"
-    },
-    "flood": {
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed"
-    },
-    "tdarr": {
-        "queue": "Queue",
-        "processed": "Processed",
-        "errored": "Errored",
-        "saved": "Saved"
-    },
-    "miniflux": {
-        "read": "Read",
-        "unread": "Unread"
-    },
-    "nextdns": {
-        "wait": "Please Wait",
-        "no_devices": "No Device Data Received"
-    },
-    "common": {
-        "bibyterate": "{{value, rate(bits: false; binary: true)}}",
-        "bibitrate": "{{value, rate(bits: true; binary: true)}}"
-    },
-    "omada": {
-        "connectedAp": "Connected APs",
-        "activeUser": "Active devices",
-        "alerts": "Alerts",
-        "connectedGateway": "Connected gateways",
-        "connectedSwitches": "Connected switches"
-    },
-    "downloadstation": {
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed"
-    },
-    "mikrotik": {
-        "cpuLoad": "CPU Load",
-        "uptime": "Uptime",
-        "numberOfLeases": "Leases",
-        "memoryUsed": "Memory Used"
-    },
-    "xteve": {
-        "streams_all": "All Streams",
-        "streams_active": "Active Streams",
-        "streams_xepg": "XEPG Channels"
-    },
-    "opnsense": {
-        "cpu": "CPU Load",
-        "memory": "Active Memory",
-        "wanUpload": "WAN Upload",
-        "wanDownload": "WAN Download"
-    },
-    "moonraker": {
-        "printer_state": "Printer State",
-        "print_status": "Print Status",
-        "print_progress": "Progress",
-        "layers": "Layers"
-    },
-    "medusa": {
-        "wanted": "Wanted",
-        "queued": "Queued",
-        "series": "Series"
-    },
-    "octoprint": {
-        "printer_state": "Status",
-        "temp_tool": "Tool temp",
-        "temp_bed": "Bed temp",
-        "job_completion": "Completion"
-    },
-    "cloudflared": {
-        "origin_ip": "Origin IP",
-        "status": "Status"
-    },
-    "proxmoxbackupserver": {
-        "datastore_usage": "Datastore",
-        "failed_tasks_24h": "Failed Tasks 24h",
-        "cpu_usage": "CPU",
-        "memory_usage": "Memory"
-    },
-    "immich": {
-        "users": "Users",
-        "photos": "Photos",
-        "videos": "Videos",
-        "storage": "Storage"
-    },
-    "uptimekuma": {
-        "up": "Sites Up",
-        "down": "Sites Down",
-        "uptime": "Uptime",
-        "incident": "Incident",
-        "m": "m"
-    },
-    "komga": {
-        "libraries": "Libraries",
-        "series": "Series",
-        "books": "Books"
-    },
-    "mylar": {
-        "series": "Series",
-        "issues": "Issues",
-        "wanted": "Wanted"
-    },
-    "photoprism": {
-        "albums": "Albums",
-        "photos": "Photos",
-        "videos": "Videos",
-        "people": "People"
-    },
-    "diskstation": {
-        "days": "Days",
-        "uptime": "Uptime",
-        "volumeAvailable": "Available"
-    }
+  "readarr": {
+    "books": "పుస్తకాలు",
+    "wanted": "కావలెను",
+    "queued": "క్యూయూఎడ్"
+  },
+  "adguard": {
+    "blocked": "నిరోధించబడింది",
+    "filtered": "ఫిల్టర్ చేయబడింది",
+    "latency": "జాప్యం",
+    "queries": "ప్రశ్నలు"
+  },
+  "strelaysrv": {
+    "numActiveSessions": "సెషన్స్",
+    "numConnections": "కనెక్షన్లు",
+    "dataRelayed": "రెలయెడఁ",
+    "transferRate": "రేటు"
+  },
+  "widget": {
+    "missing_type": "విడ్జెట్ లేదు: {{type}}",
+    "api_error": "API లోపం",
+    "status": "హోదా",
+    "information": "Information",
+    "url": "URL",
+    "raw_error": "Raw Error",
+    "response_data": "Response Data"
+  },
+  "weather": {
+    "current": "ప్రస్తుత స్తలం",
+    "allow": "అనుమతించడానికి క్లిక్ చేయండి",
+    "updating": "నవీకరిస్తోంది",
+    "wait": "దయచేసి వేచి ఉండండి"
+  },
+  "search": {
+    "placeholder": "వెతకండి…"
+  },
+  "resources": {
+    "cpu": "సీపియూ",
+    "total": "మొత్తం",
+    "free": "మిగిలింది",
+    "used": "ఉపయోగించబడిన",
+    "load": "లోడ్",
+    "mem": "MEM"
+  },
+  "docker": {
+    "rx": "RX",
+    "tx": "TX",
+    "mem": "MEM",
+    "cpu": "సీపియూ",
+    "offline": "ఆఫ్‌లైన్",
+    "error": "Error",
+    "unknown": "Unknown"
+  },
+  "emby": {
+    "playing": "ఆడుతున్నారు",
+    "transcoding": "ట్రాన్స్‌కోడింగ్",
+    "bitrate": "బిట్రేట్",
+    "no_active": "యాక్టివ్ స్ట్రీమ్‌లు లేవు"
+  },
+  "tautulli": {
+    "playing": "ఆడుతున్నారు",
+    "transcoding": "ట్రాన్స్‌కోడింగ్",
+    "bitrate": "బిట్రేట్",
+    "no_active": "యాక్టివ్ స్ట్రీమ్‌లు లేవు"
+  },
+  "nzbget": {
+    "rate": "రేట్",
+    "remaining": "మిగిలింది",
+    "downloaded": "డౌన్‌లోడ్ చేయబడింది"
+  },
+  "sabnzbd": {
+    "rate": "రేట్",
+    "queue": "వరుస",
+    "timeleft": "మిగిలి వున్న సమయం"
+  },
+  "rutorrent": {
+    "active": "చురుకుగా",
+    "upload": "అప్‌లోడ్",
+    "download": "డౌన్‌లోడ్"
+  },
+  "transmission": {
+    "download": "డౌన్‌లోడ్",
+    "upload": "అప్‌లోడ్",
+    "leech": "జలగ",
+    "seed": "సీడ్"
+  },
+  "qbittorrent": {
+    "download": "డౌన్‌లోడ్",
+    "upload": "అప్లోడ్",
+    "leech": "లీచ్",
+    "seed": "సీడ్"
+  },
+  "sonarr": {
+    "wanted": "కావలెను",
+    "queued": "క్యూయూఎడ్",
+    "series": "సిరీస్"
+  },
+  "radarr": {
+    "wanted": "కావలెను",
+    "queued": "క్యూయూఎడ్",
+    "movies": "సినిమాలు",
+    "missing": "మిస్సింగ్"
+  },
+  "lidarr": {
+    "wanted": "కావలెను",
+    "queued": "క్యూయూఎడ్",
+    "albums": "ఆల్బములు"
+  },
+  "bazarr": {
+    "missingEpisodes": "ఎపిసోడ్‌లు లేవు",
+    "missingMovies": "సినిమాలు లేవు"
+  },
+  "ombi": {
+    "pending": "పెండింగ్",
+    "approved": "ఆమోదించబడింది",
+    "available": "అందుబాటులో వున్నవి"
+  },
+  "jellyseerr": {
+    "pending": "పెండింగ్",
+    "approved": "ఆమోదించబడింది",
+    "available": "అందుబాటులో"
+  },
+  "overseerr": {
+    "pending": "పెండింగ్",
+    "approved": "ఆమోదించబడింది",
+    "available": "అందుబాటులో",
+    "processing": "Processing"
+  },
+  "pihole": {
+    "queries": "ప్రశ్నలు",
+    "blocked": "నిరోధించబడింది",
+    "gravity": "గురుత్వాకర్షణ"
+  },
+  "speedtest": {
+    "upload": "అప్లోడ్",
+    "download": "డౌన్‌లోడ్",
+    "ping": "పింగ్"
+  },
+  "portainer": {
+    "running": "నడుస్తున్నవి",
+    "stopped": "ఆగిపోయినవి",
+    "total": "మొత్తం"
+  },
+  "traefik": {
+    "routers": "రౌటర్లు",
+    "services": "సేవలు",
+    "middleware": "మిడిల్వేర్"
+  },
+  "npm": {
+    "enabled": "ప్రారంభించబడింది",
+    "disabled": "డిసేబ్లెడ్",
+    "total": "మొత్తం"
+  },
+  "coinmarketcap": {
+    "configure": "ట్రాక్ చేయడానికి ఒకటి లేదా అంతకంటే ఎక్కువ క్రిప్టో కరెన్సీలను కాన్ఫిగర్ చేయండి",
+    "1hour": "1 గంట",
+    "1day": "1 రోజు",
+    "7days": "7 రోజులు",
+    "30days": "30 రోజులు"
+  },
+  "gotify": {
+    "apps": "అప్లికేషన్లు",
+    "clients": "ఖాతాదారులు",
+    "messages": "సందేశాలు"
+  },
+  "prowlarr": {
+    "enableIndexers": "సూచికలు",
+    "numberOfGrabs": "గ్రాబ్స్",
+    "numberOfQueries": "ప్రశ్నలు",
+    "numberOfFailGrabs": "ఫెయిల్ గ్రాబ్స్",
+    "numberOfFailQueries": "విఫలమైన ప్రశ్నలు"
+  },
+  "jackett": {
+    "configured": "కాన్ఫిగర్ చేయబడింది",
+    "errored": "పొరపాటు జరిగింది"
+  },
+  "mastodon": {
+    "user_count": "వినియోగదారులు",
+    "status_count": "పోస్ట్‌లు",
+    "domain_count": "డొమైన్‌లు"
+  },
+  "authentik": {
+    "users": "వినియోగదారులు",
+    "loginsLast24H": "లాగిన్లు (24గం)",
+    "failedLoginsLast24H": "విఫలమైన లాగిన్‌లు (24గం)"
+  },
+  "proxmox": {
+    "mem": "MEM",
+    "cpu": "సీపియూ",
+    "lxc": "LXC",
+    "vms": "విఎంలు"
+  },
+  "unifi": {
+    "users": "వినియోగదారులు",
+    "uptime": "సిస్టమ్ సమయము",
+    "days": "రోజులు",
+    "wan": "WAN",
+    "lan_users": "LAN వినియోగదారులు",
+    "wlan_users": "WLAN వినియోగదారులు",
+    "up": "అప్",
+    "down": "డౌన్",
+    "wait": "దయచేసి వేచి ఉండండి",
+    "lan": "లాన్",
+    "wlan": "WLAN",
+    "devices": "పరికరాలు",
+    "lan_devices": "LAN పరికరాలు",
+    "wlan_devices": "WLAN పరికరాలు",
+    "empty_data": "Subsystem status unknown"
+  },
+  "plex": {
+    "streams": "యాక్టివ్ స్ట్రీమ్‌లు",
+    "movies": "సినిమాలు",
+    "tv": "దూరదర్శిని కార్యక్రమాలు"
+  },
+  "glances": {
+    "cpu": "సీపియూ",
+    "mem": "MEM",
+    "wait": "దయచేసి వేచి ఉండండి"
+  },
+  "changedetectionio": {
+    "totalObserved": "మొత్తం గమనించబడింది",
+    "diffsDetected": "తేడాలు గుర్తించబడ్డాయి"
+  },
+  "wmo": {
+    "0-day": "సన్నీ",
+    "0-night": "స్పష్టమైన",
+    "57-night": "గడ్డకట్టే చినుకులు",
+    "73-day": "మంచు",
+    "73-night": "మంచు",
+    "75-day": "భారీ మంచు",
+    "75-night": "భారీ మంచు",
+    "77-day": "మంచు గింజలు",
+    "77-night": "మంచు గింజలు",
+    "80-day": "తేలికపాటి జల్లులు",
+    "80-night": "తేలికపాటి జల్లులు",
+    "81-day": "జల్లులు",
+    "81-night": "జల్లులు",
+    "82-day": "భారీ వర్షాలు",
+    "82-night": "భారీ వర్షాలు",
+    "85-day": "మంచు జల్లులు",
+    "85-night": "మంచు జల్లులు",
+    "1-day": "ప్రధానంగా ఎండ",
+    "1-night": "ప్రధానంగా స్పష్టంగా",
+    "2-day": "పాక్షికంగా మేఘావృతమై ఉంటుంది",
+    "2-night": "పాక్షికంగా మేఘావృతమై ఉంటుంది",
+    "3-day": "మేఘావృతం",
+    "3-night": "మేఘావృతం",
+    "45-day": "పొగమంచు",
+    "45-night": "పొగమంచు",
+    "48-day": "పొగమంచు",
+    "48-night": "పొగమంచు",
+    "51-day": "తేలికపాటి చినుకులు",
+    "51-night": "తేలికపాటి చినుకులు",
+    "53-day": "చినుకులు",
+    "53-night": "చినుకులు",
+    "55-day": "భారీ చినుకులు",
+    "55-night": "భారీ చినుకులు",
+    "56-day": "తేలికపాటి గడ్డకట్టే చినుకులు",
+    "56-night": "తేలికపాటి గడ్డకట్టే చినుకులు",
+    "57-day": "గడ్డకట్టే చినుకులు",
+    "61-day": "తేలికపాటి వర్షం",
+    "61-night": "తేలికపాటి వర్షం",
+    "63-day": "వర్షం",
+    "63-night": "వర్షం",
+    "65-day": "భారీవర్షం",
+    "65-night": "భారీవర్షం",
+    "66-day": "గడ్డకట్టే వర్షం",
+    "66-night": "గడ్డకట్టే వర్షం",
+    "67-day": "గడ్డకట్టే వర్షం",
+    "67-night": "గడ్డకట్టే వర్షం",
+    "71-day": "తేలికపాటి మంచు",
+    "71-night": "తేలికపాటి మంచు",
+    "86-day": "మంచు జల్లులు",
+    "86-night": "మంచు జల్లులు",
+    "95-day": "ఉరుము",
+    "95-night": "ఉరుము",
+    "96-day": "వడగళ్లతో కూడిన ఉరుములతో కూడిన వర్షం",
+    "96-night": "వడగళ్లతో కూడిన ఉరుములతో కూడిన వర్షం",
+    "99-day": "వడగళ్లతో కూడిన ఉరుములతో కూడిన వర్షం",
+    "99-night": "వడగళ్లతో కూడిన ఉరుములతో కూడిన వర్షం"
+  },
+  "quicklaunch": {
+    "bookmark": "బుక్మార్క్",
+    "service": "సేవ",
+    "search": "Search",
+    "custom": "Custom"
+  },
+  "homebridge": {
+    "available_update": "వ్యవస్థ",
+    "updates": "నవీకరణలు",
+    "update_available": "అందుబాటులో నవీకరణ",
+    "up_to_date": "తాజాగా",
+    "child_bridges": "పిల్ల వంతెనలు",
+    "child_bridges_status": "{{ok}}/{{total}}"
+  },
+  "autobrr": {
+    "rejectedPushes": "తిరస్కరించారు",
+    "approvedPushes": "ఆమోదించబడింది",
+    "filters": "ఫిల్టర్లు",
+    "indexers": "సూచికలు"
+  },
+  "watchtower": {
+    "containers_scanned": "స్కాన్ చేశారు",
+    "containers_updated": "నవీకరించబడింది",
+    "containers_failed": "విఫలమయ్యారు"
+  },
+  "tubearchivist": {
+    "downloads": "Queue",
+    "videos": "Videos",
+    "channels": "Channels",
+    "playlists": "Playlists"
+  },
+  "truenas": {
+    "load": "System Load",
+    "uptime": "Uptime",
+    "alerts": "Alerts",
+    "time": "{{value, number(style: unit; unitDisplay: long;)}}"
+  },
+  "navidrome": {
+    "nothing_streaming": "No Active Streams",
+    "please_wait": "Please Wait"
+  },
+  "pyload": {
+    "speed": "Speed",
+    "active": "Active",
+    "queue": "Queue",
+    "total": "Total"
+  },
+  "gluetun": {
+    "public_ip": "Public IP",
+    "region": "Region",
+    "country": "Country"
+  },
+  "hdhomerun": {
+    "channels": "Channels",
+    "hd": "HD"
+  },
+  "ping": {
+    "error": "Error",
+    "ping": "Ping"
+  },
+  "scrutiny": {
+    "passed": "Passed",
+    "failed": "Failed",
+    "unknown": "Unknown"
+  },
+  "paperlessngx": {
+    "inbox": "Inbox",
+    "total": "Total"
+  },
+  "deluge": {
+    "seed": "Seed",
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech"
+  },
+  "flood": {
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed"
+  },
+  "tdarr": {
+    "queue": "Queue",
+    "processed": "Processed",
+    "errored": "Errored",
+    "saved": "Saved"
+  },
+  "miniflux": {
+    "read": "Read",
+    "unread": "Unread"
+  },
+  "nextdns": {
+    "wait": "Please Wait",
+    "no_devices": "No Device Data Received"
+  },
+  "common": {
+    "bibyterate": "{{value, rate(bits: false; binary: true)}}",
+    "bibitrate": "{{value, rate(bits: true; binary: true)}}"
+  },
+  "omada": {
+    "connectedAp": "Connected APs",
+    "activeUser": "Active devices",
+    "alerts": "Alerts",
+    "connectedGateway": "Connected gateways",
+    "connectedSwitches": "Connected switches"
+  },
+  "downloadstation": {
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed"
+  },
+  "mikrotik": {
+    "cpuLoad": "CPU Load",
+    "uptime": "Uptime",
+    "numberOfLeases": "Leases",
+    "memoryUsed": "Memory Used"
+  },
+  "xteve": {
+    "streams_all": "All Streams",
+    "streams_active": "Active Streams",
+    "streams_xepg": "XEPG Channels"
+  },
+  "opnsense": {
+    "cpu": "CPU Load",
+    "memory": "Active Memory",
+    "wanUpload": "WAN Upload",
+    "wanDownload": "WAN Download"
+  },
+  "moonraker": {
+    "printer_state": "Printer State",
+    "print_status": "Print Status",
+    "print_progress": "Progress",
+    "layers": "Layers"
+  },
+  "medusa": {
+    "wanted": "Wanted",
+    "queued": "Queued",
+    "series": "Series"
+  },
+  "octoprint": {
+    "printer_state": "Status",
+    "temp_tool": "Tool temp",
+    "temp_bed": "Bed temp",
+    "job_completion": "Completion"
+  },
+  "cloudflared": {
+    "origin_ip": "Origin IP",
+    "status": "Status"
+  },
+  "proxmoxbackupserver": {
+    "datastore_usage": "Datastore",
+    "failed_tasks_24h": "Failed Tasks 24h",
+    "cpu_usage": "CPU",
+    "memory_usage": "Memory"
+  },
+  "immich": {
+    "users": "Users",
+    "photos": "Photos",
+    "videos": "Videos",
+    "storage": "Storage"
+  },
+  "uptimekuma": {
+    "up": "Sites Up",
+    "down": "Sites Down",
+    "uptime": "Uptime",
+    "incident": "Incident",
+    "m": "m"
+  },
+  "komga": {
+    "libraries": "Libraries",
+    "series": "Series",
+    "books": "Books"
+  },
+  "mylar": {
+    "series": "Series",
+    "issues": "Issues",
+    "wanted": "Wanted"
+  },
+  "photoprism": {
+    "albums": "Albums",
+    "photos": "Photos",
+    "videos": "Videos",
+    "people": "People"
+  },
+  "diskstation": {
+    "days": "Days",
+    "uptime": "Uptime",
+    "volumeAvailable": "Available"
+  },
+  "spaceflight": {
+    "net": "Net",
+    "mission": "Mission",
+    "status": "Status"
+  }
 }

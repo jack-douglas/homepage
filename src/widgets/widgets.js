@@ -62,6 +62,7 @@ import watchtower from "./watchtower/widget";
 import xteve from "./xteve/widget";
 import immich from "./immich/widget";
 import uptimekuma from "./uptimekuma/widget";
+import spaceflight from "./spaceflight/widget";
 
 const widgets = {
   adguard,
@@ -130,6 +131,7 @@ const widgets = {
   xteve,
   immich,
   uptimekuma,
+  spaceflight,
 };
 
 export default widgets;

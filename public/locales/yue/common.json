@@ -1,472 +1,477 @@
 {
-    "emby": {
-        "transcoding": "轉碼緊",
-        "bitrate": "比特率",
-        "playing": "播放緊",
-        "no_active": "無任何活動"
-    },
-    "tautulli": {
-        "playing": "播放緊",
-        "no_active": "無任何活動",
-        "transcoding": "轉碼緊",
-        "bitrate": "比特率"
-    },
-    "transmission": {
-        "download": "下載速度",
-        "upload": "上傳速度",
-        "leech": "下載緊",
-        "seed": "做種緊"
-    },
-    "widget": {
-        "missing_type": "缺少小部件類型：{{type}}",
-        "api_error": "API 錯誤",
-        "status": "狀況",
-        "url": "URL",
-        "information": "Information",
-        "raw_error": "Raw Error",
-        "response_data": "Response Data"
-    },
-    "weather": {
-        "current": "依家位置",
-        "allow": "點擊允許",
-        "updating": "更新緊",
-        "wait": "請稍後"
-    },
-    "search": {
-        "placeholder": "搜索緊…"
-    },
-    "resources": {
-        "total": "全部",
-        "free": "剩餘",
-        "used": "用咗",
-        "load": "負荷",
-        "cpu": "CPU",
-        "mem": "MEM"
-    },
-    "docker": {
-        "rx": "接收",
-        "tx": "發送",
-        "mem": "內存",
-        "cpu": "處理器",
-        "offline": "離線",
-        "error": "Error",
-        "unknown": "Unknown"
-    },
-    "nzbget": {
-        "rate": "速度",
-        "remaining": "剩餘",
-        "downloaded": "下載咗"
-    },
-    "sabnzbd": {
-        "rate": "速度",
-        "queue": "隊列",
-        "timeleft": "用時"
-    },
-    "rutorrent": {
-        "active": "激活",
-        "upload": "上傳",
-        "download": "下載"
-    },
-    "qbittorrent": {
-        "download": "下載速度",
-        "upload": "上傳速度",
-        "leech": "下載緊",
-        "seed": "做種緊"
-    },
-    "sonarr": {
-        "wanted": "想睇",
-        "queued": "排緊隊",
-        "series": "電視劇"
-    },
-    "radarr": {
-        "wanted": "想睇",
-        "queued": "排緊隊",
-        "movies": "電影",
-        "missing": "Missing"
-    },
-    "lidarr": {
-        "wanted": "想睇",
-        "queued": "排緊隊",
-        "albums": "專輯"
-    },
-    "readarr": {
-        "wanted": "想睇",
-        "queued": "排緊隊",
-        "books": "書"
-    },
-    "bazarr": {
-        "missingEpisodes": "缺少嘅劇集",
-        "missingMovies": "缺少電影"
-    },
-    "ombi": {
-        "pending": "待定",
-        "approved": "批准",
-        "available": "可用"
-    },
-    "jellyseerr": {
-        "pending": "提交咗",
-        "approved": "批准咗",
-        "available": "可睇嘅總量"
-    },
-    "overseerr": {
-        "pending": "待定",
-        "approved": "批准",
-        "available": "可用",
-        "processing": "Processing"
-    },
-    "pihole": {
-        "queries": "查詢",
-        "blocked": "封鎖",
-        "gravity": "重力"
-    },
-    "adguard": {
-        "queries": "查詢",
-        "blocked": "封鎖",
-        "filtered": "過濾",
-        "latency": "延遲"
-    },
-    "speedtest": {
-        "upload": "上傳速率",
-        "download": "下載速率",
-        "ping": "Ping值"
-    },
-    "portainer": {
-        "running": "運行緊",
-        "stopped": "暫停",
-        "total": "全部"
-    },
-    "traefik": {
-        "routers": "路由器",
-        "services": "服務項",
-        "middleware": "中間件"
-    },
-    "coinmarketcap": {
-        "1day": "1 日",
-        "configure": "配置一個或多個加密貨幣以進行跟蹤",
-        "1hour": "1 個鐘",
-        "7days": "7 日",
-        "30days": "30日"
-    },
-    "npm": {
-        "enabled": "啟用",
-        "disabled": "停用咗",
-        "total": "全部"
-    },
-    "gotify": {
-        "apps": "應用",
-        "clients": "客戶端",
-        "messages": "消息"
-    },
-    "prowlarr": {
-        "enableIndexers": "索引",
-        "numberOfGrabs": "抓住",
-        "numberOfQueries": "查詢",
-        "numberOfFailGrabs": "失敗抓取",
-        "numberOfFailQueries": "查詢失敗"
-    },
-    "jackett": {
-        "configured": "配置",
-        "errored": "已錯誤"
-    },
-    "strelaysrv": {
-        "numActiveSessions": "會話",
-        "numConnections": "連接",
-        "dataRelayed": "傳遞",
-        "transferRate": "速度"
-    },
-    "mastodon": {
-        "user_count": "用戶",
-        "status_count": "職位",
-        "domain_count": "域"
-    },
-    "authentik": {
-        "users": "用戶",
-        "loginsLast24H": "登錄（ 24小时）",
-        "failedLoginsLast24H": "登錄失敗（ 24鐘頭）"
-    },
-    "proxmox": {
-        "mem": "MEM",
-        "cpu": "CPU",
-        "lxc": "LXC",
-        "vms": "VMs"
-    },
-    "unifi": {
-        "users": "Users",
-        "uptime": "System Uptime",
-        "days": "Days",
-        "wan": "WAN",
-        "lan_users": "LAN Users",
-        "wlan_users": "WLAN Users",
-        "up": "UP",
-        "down": "DOWN",
-        "wait": "Please wait",
-        "lan": "LAN",
-        "wlan": "WLAN",
-        "devices": "Devices",
-        "lan_devices": "LAN Devices",
-        "wlan_devices": "WLAN Devices",
-        "empty_data": "Subsystem status unknown"
-    },
-    "plex": {
-        "streams": "Active Streams",
-        "movies": "Movies",
-        "tv": "TV Shows"
-    },
-    "glances": {
-        "cpu": "CPU",
-        "mem": "MEM",
-        "wait": "Please wait"
-    },
-    "changedetectionio": {
-        "totalObserved": "Total Observed",
-        "diffsDetected": "Diffs Detected"
-    },
-    "wmo": {
-        "55-day": "Heavy Drizzle",
-        "55-night": "Heavy Drizzle",
-        "56-day": "Light Freezing Drizzle",
-        "63-day": "Rain",
-        "65-night": "Heavy Rain",
-        "66-day": "Freezing Rain",
-        "75-day": "Heavy Snow",
-        "75-night": "Heavy Snow",
-        "77-day": "Snow Grains",
-        "77-night": "Snow Grains",
-        "81-night": "Showers",
-        "82-day": "Heavy Showers",
-        "82-night": "Heavy Showers",
-        "99-day": "Thunderstorm With Hail",
-        "99-night": "Thunderstorm With Hail",
-        "0-day": "Sunny",
-        "0-night": "Clear",
-        "1-day": "Mainly Sunny",
-        "1-night": "Mainly Clear",
-        "2-day": "Partly Cloudy",
-        "2-night": "Partly Cloudy",
-        "3-day": "Cloudy",
-        "3-night": "Cloudy",
-        "45-day": "Foggy",
-        "45-night": "Foggy",
-        "48-day": "Foggy",
-        "51-day": "Light Drizzle",
-        "48-night": "Foggy",
-        "51-night": "Light Drizzle",
-        "53-day": "Drizzle",
-        "53-night": "Drizzle",
-        "56-night": "Light Freezing Drizzle",
-        "57-day": "Freezing Drizzle",
-        "57-night": "Freezing Drizzle",
-        "61-day": "Light Rain",
-        "61-night": "Light Rain",
-        "63-night": "Rain",
-        "65-day": "Heavy Rain",
-        "66-night": "Freezing Rain",
-        "67-day": "Freezing Rain",
-        "67-night": "Freezing Rain",
-        "80-night": "Light Showers",
-        "71-day": "Light Snow",
-        "71-night": "Light Snow",
-        "73-day": "Snow",
-        "73-night": "Snow",
-        "80-day": "Light Showers",
-        "81-day": "Showers",
-        "85-day": "Snow Showers",
-        "85-night": "Snow Showers",
-        "86-day": "Snow Showers",
-        "86-night": "Snow Showers",
-        "95-day": "Thunderstorm",
-        "95-night": "Thunderstorm",
-        "96-day": "Thunderstorm With Hail",
-        "96-night": "Thunderstorm With Hail"
-    },
-    "quicklaunch": {
-        "bookmark": "Bookmark",
-        "service": "Service",
-        "search": "Search",
-        "custom": "Custom"
-    },
-    "homebridge": {
-        "available_update": "System",
-        "updates": "Updates",
-        "update_available": "Update Available",
-        "up_to_date": "Up to Date",
-        "child_bridges": "Child Bridges",
-        "child_bridges_status": "{{ok}}/{{total}}"
-    },
-    "autobrr": {
-        "approvedPushes": "Approved",
-        "rejectedPushes": "Rejected",
-        "filters": "Filters",
-        "indexers": "Indexers"
-    },
-    "watchtower": {
-        "containers_scanned": "Scanned",
-        "containers_updated": "Updated",
-        "containers_failed": "Failed"
-    },
-    "tubearchivist": {
-        "downloads": "Queue",
-        "videos": "Videos",
-        "channels": "Channels",
-        "playlists": "Playlists"
-    },
-    "truenas": {
-        "load": "System Load",
-        "uptime": "Uptime",
-        "alerts": "Alerts",
-        "time": "{{value, number(style: unit; unitDisplay: long;)}}"
-    },
-    "navidrome": {
-        "nothing_streaming": "No Active Streams",
-        "please_wait": "Please Wait"
-    },
-    "pyload": {
-        "speed": "Speed",
-        "active": "Active",
-        "queue": "Queue",
-        "total": "Total"
-    },
-    "gluetun": {
-        "public_ip": "Public IP",
-        "region": "Region",
-        "country": "Country"
-    },
-    "hdhomerun": {
-        "channels": "Channels",
-        "hd": "HD"
-    },
-    "ping": {
-        "error": "Error",
-        "ping": "Ping"
-    },
-    "scrutiny": {
-        "passed": "Passed",
-        "failed": "Failed",
-        "unknown": "Unknown"
-    },
-    "paperlessngx": {
-        "inbox": "Inbox",
-        "total": "Total"
-    },
-    "deluge": {
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed"
-    },
-    "flood": {
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed"
-    },
-    "tdarr": {
-        "queue": "Queue",
-        "processed": "Processed",
-        "errored": "Errored",
-        "saved": "Saved"
-    },
-    "miniflux": {
-        "read": "Read",
-        "unread": "Unread"
-    },
-    "nextdns": {
-        "wait": "Please Wait",
-        "no_devices": "No Device Data Received"
-    },
-    "common": {
-        "bibyterate": "{{value, rate(bits: false; binary: true)}}",
-        "bibitrate": "{{value, rate(bits: true; binary: true)}}"
-    },
-    "omada": {
-        "connectedAp": "Connected APs",
-        "activeUser": "Active devices",
-        "alerts": "Alerts",
-        "connectedGateway": "Connected gateways",
-        "connectedSwitches": "Connected switches"
-    },
-    "downloadstation": {
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed"
-    },
-    "mikrotik": {
-        "cpuLoad": "CPU Load",
-        "memoryUsed": "Memory Used",
-        "uptime": "Uptime",
-        "numberOfLeases": "Leases"
-    },
-    "xteve": {
-        "streams_all": "All Streams",
-        "streams_active": "Active Streams",
-        "streams_xepg": "XEPG Channels"
-    },
-    "opnsense": {
-        "cpu": "CPU Load",
-        "memory": "Active Memory",
-        "wanUpload": "WAN Upload",
-        "wanDownload": "WAN Download"
-    },
-    "moonraker": {
-        "print_progress": "Progress",
-        "layers": "Layers",
-        "printer_state": "Printer State",
-        "print_status": "Print Status"
-    },
-    "medusa": {
-        "wanted": "Wanted",
-        "queued": "Queued",
-        "series": "Series"
-    },
-    "octoprint": {
-        "printer_state": "Status",
-        "temp_tool": "Tool temp",
-        "temp_bed": "Bed temp",
-        "job_completion": "Completion"
-    },
-    "cloudflared": {
-        "origin_ip": "Origin IP",
-        "status": "Status"
-    },
-    "proxmoxbackupserver": {
-        "datastore_usage": "Datastore",
-        "failed_tasks_24h": "Failed Tasks 24h",
-        "cpu_usage": "CPU",
-        "memory_usage": "Memory"
-    },
-    "immich": {
-        "users": "Users",
-        "photos": "Photos",
-        "videos": "Videos",
-        "storage": "Storage"
-    },
-    "uptimekuma": {
-        "up": "Sites Up",
-        "down": "Sites Down",
-        "uptime": "Uptime",
-        "incident": "Incident",
-        "m": "m"
-    },
-    "komga": {
-        "libraries": "Libraries",
-        "series": "Series",
-        "books": "Books"
-    },
-    "mylar": {
-        "series": "Series",
-        "issues": "Issues",
-        "wanted": "Wanted"
-    },
-    "photoprism": {
-        "albums": "Albums",
-        "photos": "Photos",
-        "videos": "Videos",
-        "people": "People"
-    },
-    "diskstation": {
-        "days": "Days",
-        "uptime": "Uptime",
-        "volumeAvailable": "Available"
-    }
+  "emby": {
+    "transcoding": "轉碼緊",
+    "bitrate": "比特率",
+    "playing": "播放緊",
+    "no_active": "無任何活動"
+  },
+  "tautulli": {
+    "playing": "播放緊",
+    "no_active": "無任何活動",
+    "transcoding": "轉碼緊",
+    "bitrate": "比特率"
+  },
+  "transmission": {
+    "download": "下載速度",
+    "upload": "上傳速度",
+    "leech": "下載緊",
+    "seed": "做種緊"
+  },
+  "widget": {
+    "missing_type": "缺少小部件類型：{{type}}",
+    "api_error": "API 錯誤",
+    "status": "狀況",
+    "url": "URL",
+    "information": "Information",
+    "raw_error": "Raw Error",
+    "response_data": "Response Data"
+  },
+  "weather": {
+    "current": "依家位置",
+    "allow": "點擊允許",
+    "updating": "更新緊",
+    "wait": "請稍後"
+  },
+  "search": {
+    "placeholder": "搜索緊…"
+  },
+  "resources": {
+    "total": "全部",
+    "free": "剩餘",
+    "used": "用咗",
+    "load": "負荷",
+    "cpu": "CPU",
+    "mem": "MEM"
+  },
+  "docker": {
+    "rx": "接收",
+    "tx": "發送",
+    "mem": "內存",
+    "cpu": "處理器",
+    "offline": "離線",
+    "error": "Error",
+    "unknown": "Unknown"
+  },
+  "nzbget": {
+    "rate": "速度",
+    "remaining": "剩餘",
+    "downloaded": "下載咗"
+  },
+  "sabnzbd": {
+    "rate": "速度",
+    "queue": "隊列",
+    "timeleft": "用時"
+  },
+  "rutorrent": {
+    "active": "激活",
+    "upload": "上傳",
+    "download": "下載"
+  },
+  "qbittorrent": {
+    "download": "下載速度",
+    "upload": "上傳速度",
+    "leech": "下載緊",
+    "seed": "做種緊"
+  },
+  "sonarr": {
+    "wanted": "想睇",
+    "queued": "排緊隊",
+    "series": "電視劇"
+  },
+  "radarr": {
+    "wanted": "想睇",
+    "queued": "排緊隊",
+    "movies": "電影",
+    "missing": "Missing"
+  },
+  "lidarr": {
+    "wanted": "想睇",
+    "queued": "排緊隊",
+    "albums": "專輯"
+  },
+  "readarr": {
+    "wanted": "想睇",
+    "queued": "排緊隊",
+    "books": "書"
+  },
+  "bazarr": {
+    "missingEpisodes": "缺少嘅劇集",
+    "missingMovies": "缺少電影"
+  },
+  "ombi": {
+    "pending": "待定",
+    "approved": "批准",
+    "available": "可用"
+  },
+  "jellyseerr": {
+    "pending": "提交咗",
+    "approved": "批准咗",
+    "available": "可睇嘅總量"
+  },
+  "overseerr": {
+    "pending": "待定",
+    "approved": "批准",
+    "available": "可用",
+    "processing": "Processing"
+  },
+  "pihole": {
+    "queries": "查詢",
+    "blocked": "封鎖",
+    "gravity": "重力"
+  },
+  "adguard": {
+    "queries": "查詢",
+    "blocked": "封鎖",
+    "filtered": "過濾",
+    "latency": "延遲"
+  },
+  "speedtest": {
+    "upload": "上傳速率",
+    "download": "下載速率",
+    "ping": "Ping值"
+  },
+  "portainer": {
+    "running": "運行緊",
+    "stopped": "暫停",
+    "total": "全部"
+  },
+  "traefik": {
+    "routers": "路由器",
+    "services": "服務項",
+    "middleware": "中間件"
+  },
+  "coinmarketcap": {
+    "1day": "1 日",
+    "configure": "配置一個或多個加密貨幣以進行跟蹤",
+    "1hour": "1 個鐘",
+    "7days": "7 日",
+    "30days": "30日"
+  },
+  "npm": {
+    "enabled": "啟用",
+    "disabled": "停用咗",
+    "total": "全部"
+  },
+  "gotify": {
+    "apps": "應用",
+    "clients": "客戶端",
+    "messages": "消息"
+  },
+  "prowlarr": {
+    "enableIndexers": "索引",
+    "numberOfGrabs": "抓住",
+    "numberOfQueries": "查詢",
+    "numberOfFailGrabs": "失敗抓取",
+    "numberOfFailQueries": "查詢失敗"
+  },
+  "jackett": {
+    "configured": "配置",
+    "errored": "已錯誤"
+  },
+  "strelaysrv": {
+    "numActiveSessions": "會話",
+    "numConnections": "連接",
+    "dataRelayed": "傳遞",
+    "transferRate": "速度"
+  },
+  "mastodon": {
+    "user_count": "用戶",
+    "status_count": "職位",
+    "domain_count": "域"
+  },
+  "authentik": {
+    "users": "用戶",
+    "loginsLast24H": "登錄（ 24小时）",
+    "failedLoginsLast24H": "登錄失敗（ 24鐘頭）"
+  },
+  "proxmox": {
+    "mem": "MEM",
+    "cpu": "CPU",
+    "lxc": "LXC",
+    "vms": "VMs"
+  },
+  "unifi": {
+    "users": "Users",
+    "uptime": "System Uptime",
+    "days": "Days",
+    "wan": "WAN",
+    "lan_users": "LAN Users",
+    "wlan_users": "WLAN Users",
+    "up": "UP",
+    "down": "DOWN",
+    "wait": "Please wait",
+    "lan": "LAN",
+    "wlan": "WLAN",
+    "devices": "Devices",
+    "lan_devices": "LAN Devices",
+    "wlan_devices": "WLAN Devices",
+    "empty_data": "Subsystem status unknown"
+  },
+  "plex": {
+    "streams": "Active Streams",
+    "movies": "Movies",
+    "tv": "TV Shows"
+  },
+  "glances": {
+    "cpu": "CPU",
+    "mem": "MEM",
+    "wait": "Please wait"
+  },
+  "changedetectionio": {
+    "totalObserved": "Total Observed",
+    "diffsDetected": "Diffs Detected"
+  },
+  "wmo": {
+    "55-day": "Heavy Drizzle",
+    "55-night": "Heavy Drizzle",
+    "56-day": "Light Freezing Drizzle",
+    "63-day": "Rain",
+    "65-night": "Heavy Rain",
+    "66-day": "Freezing Rain",
+    "75-day": "Heavy Snow",
+    "75-night": "Heavy Snow",
+    "77-day": "Snow Grains",
+    "77-night": "Snow Grains",
+    "81-night": "Showers",
+    "82-day": "Heavy Showers",
+    "82-night": "Heavy Showers",
+    "99-day": "Thunderstorm With Hail",
+    "99-night": "Thunderstorm With Hail",
+    "0-day": "Sunny",
+    "0-night": "Clear",
+    "1-day": "Mainly Sunny",
+    "1-night": "Mainly Clear",
+    "2-day": "Partly Cloudy",
+    "2-night": "Partly Cloudy",
+    "3-day": "Cloudy",
+    "3-night": "Cloudy",
+    "45-day": "Foggy",
+    "45-night": "Foggy",
+    "48-day": "Foggy",
+    "51-day": "Light Drizzle",
+    "48-night": "Foggy",
+    "51-night": "Light Drizzle",
+    "53-day": "Drizzle",
+    "53-night": "Drizzle",
+    "56-night": "Light Freezing Drizzle",
+    "57-day": "Freezing Drizzle",
+    "57-night": "Freezing Drizzle",
+    "61-day": "Light Rain",
+    "61-night": "Light Rain",
+    "63-night": "Rain",
+    "65-day": "Heavy Rain",
+    "66-night": "Freezing Rain",
+    "67-day": "Freezing Rain",
+    "67-night": "Freezing Rain",
+    "80-night": "Light Showers",
+    "71-day": "Light Snow",
+    "71-night": "Light Snow",
+    "73-day": "Snow",
+    "73-night": "Snow",
+    "80-day": "Light Showers",
+    "81-day": "Showers",
+    "85-day": "Snow Showers",
+    "85-night": "Snow Showers",
+    "86-day": "Snow Showers",
+    "86-night": "Snow Showers",
+    "95-day": "Thunderstorm",
+    "95-night": "Thunderstorm",
+    "96-day": "Thunderstorm With Hail",
+    "96-night": "Thunderstorm With Hail"
+  },
+  "quicklaunch": {
+    "bookmark": "Bookmark",
+    "service": "Service",
+    "search": "Search",
+    "custom": "Custom"
+  },
+  "homebridge": {
+    "available_update": "System",
+    "updates": "Updates",
+    "update_available": "Update Available",
+    "up_to_date": "Up to Date",
+    "child_bridges": "Child Bridges",
+    "child_bridges_status": "{{ok}}/{{total}}"
+  },
+  "autobrr": {
+    "approvedPushes": "Approved",
+    "rejectedPushes": "Rejected",
+    "filters": "Filters",
+    "indexers": "Indexers"
+  },
+  "watchtower": {
+    "containers_scanned": "Scanned",
+    "containers_updated": "Updated",
+    "containers_failed": "Failed"
+  },
+  "tubearchivist": {
+    "downloads": "Queue",
+    "videos": "Videos",
+    "channels": "Channels",
+    "playlists": "Playlists"
+  },
+  "truenas": {
+    "load": "System Load",
+    "uptime": "Uptime",
+    "alerts": "Alerts",
+    "time": "{{value, number(style: unit; unitDisplay: long;)}}"
+  },
+  "navidrome": {
+    "nothing_streaming": "No Active Streams",
+    "please_wait": "Please Wait"
+  },
+  "pyload": {
+    "speed": "Speed",
+    "active": "Active",
+    "queue": "Queue",
+    "total": "Total"
+  },
+  "gluetun": {
+    "public_ip": "Public IP",
+    "region": "Region",
+    "country": "Country"
+  },
+  "hdhomerun": {
+    "channels": "Channels",
+    "hd": "HD"
+  },
+  "ping": {
+    "error": "Error",
+    "ping": "Ping"
+  },
+  "scrutiny": {
+    "passed": "Passed",
+    "failed": "Failed",
+    "unknown": "Unknown"
+  },
+  "paperlessngx": {
+    "inbox": "Inbox",
+    "total": "Total"
+  },
+  "deluge": {
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed"
+  },
+  "flood": {
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed"
+  },
+  "tdarr": {
+    "queue": "Queue",
+    "processed": "Processed",
+    "errored": "Errored",
+    "saved": "Saved"
+  },
+  "miniflux": {
+    "read": "Read",
+    "unread": "Unread"
+  },
+  "nextdns": {
+    "wait": "Please Wait",
+    "no_devices": "No Device Data Received"
+  },
+  "common": {
+    "bibyterate": "{{value, rate(bits: false; binary: true)}}",
+    "bibitrate": "{{value, rate(bits: true; binary: true)}}"
+  },
+  "omada": {
+    "connectedAp": "Connected APs",
+    "activeUser": "Active devices",
+    "alerts": "Alerts",
+    "connectedGateway": "Connected gateways",
+    "connectedSwitches": "Connected switches"
+  },
+  "downloadstation": {
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed"
+  },
+  "mikrotik": {
+    "cpuLoad": "CPU Load",
+    "memoryUsed": "Memory Used",
+    "uptime": "Uptime",
+    "numberOfLeases": "Leases"
+  },
+  "xteve": {
+    "streams_all": "All Streams",
+    "streams_active": "Active Streams",
+    "streams_xepg": "XEPG Channels"
+  },
+  "opnsense": {
+    "cpu": "CPU Load",
+    "memory": "Active Memory",
+    "wanUpload": "WAN Upload",
+    "wanDownload": "WAN Download"
+  },
+  "moonraker": {
+    "print_progress": "Progress",
+    "layers": "Layers",
+    "printer_state": "Printer State",
+    "print_status": "Print Status"
+  },
+  "medusa": {
+    "wanted": "Wanted",
+    "queued": "Queued",
+    "series": "Series"
+  },
+  "octoprint": {
+    "printer_state": "Status",
+    "temp_tool": "Tool temp",
+    "temp_bed": "Bed temp",
+    "job_completion": "Completion"
+  },
+  "cloudflared": {
+    "origin_ip": "Origin IP",
+    "status": "Status"
+  },
+  "proxmoxbackupserver": {
+    "datastore_usage": "Datastore",
+    "failed_tasks_24h": "Failed Tasks 24h",
+    "cpu_usage": "CPU",
+    "memory_usage": "Memory"
+  },
+  "immich": {
+    "users": "Users",
+    "photos": "Photos",
+    "videos": "Videos",
+    "storage": "Storage"
+  },
+  "uptimekuma": {
+    "up": "Sites Up",
+    "down": "Sites Down",
+    "uptime": "Uptime",
+    "incident": "Incident",
+    "m": "m"
+  },
+  "komga": {
+    "libraries": "Libraries",
+    "series": "Series",
+    "books": "Books"
+  },
+  "mylar": {
+    "series": "Series",
+    "issues": "Issues",
+    "wanted": "Wanted"
+  },
+  "photoprism": {
+    "albums": "Albums",
+    "photos": "Photos",
+    "videos": "Videos",
+    "people": "People"
+  },
+  "diskstation": {
+    "days": "Days",
+    "uptime": "Uptime",
+    "volumeAvailable": "Available"
+  },
+  "spaceflight": {
+    "net": "Net",
+    "mission": "Mission",
+    "status": "Status"
+  }
 }

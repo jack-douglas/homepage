@@ -68,6 +68,7 @@ const components = {
   xteve: dynamic(() => import("./xteve/component")),
   immich: dynamic(() => import("./immich/component")),
   uptimekuma: dynamic(() => import("./uptimekuma/component")),
+  spaceflight: dynamic(() => import("./spaceflight/component")),
 };
 
 export default components;

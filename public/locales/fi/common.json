@@ -1,472 +1,477 @@
 {
-    "widget": {
-        "missing_type": "Puuttuva härpäkkeen tyyppi: {{type}}",
-        "api_error": "API-virhe",
-        "status": "Tila",
-        "information": "Information",
-        "url": "URL",
-        "raw_error": "Raw Error",
-        "response_data": "Response Data"
-    },
-    "weather": {
-        "current": "Nykyinen sijainti",
-        "allow": "Klikkaa salliaksesi",
-        "updating": "Päivitetään",
-        "wait": "Odota, ole hyvä"
-    },
-    "search": {
-        "placeholder": "Hae…"
-    },
-    "resources": {
-        "cpu": "CPU",
-        "total": "Yhteensä",
-        "free": "Vapaana",
-        "used": "Käytetty",
-        "load": "Kuorma",
-        "mem": "MEM"
-    },
-    "docker": {
-        "rx": "RX",
-        "tx": "TX",
-        "mem": "RAM",
-        "cpu": "CPU",
-        "offline": "Offline",
-        "error": "Error",
-        "unknown": "Unknown"
-    },
-    "emby": {
-        "playing": "Toistaa",
-        "transcoding": "Transkoodaa",
-        "bitrate": "Bittinopeus",
-        "no_active": "Ei aktiivisia striimejä"
-    },
-    "tautulli": {
-        "playing": "Toistaa",
-        "transcoding": "Transkoodaa",
-        "bitrate": "Bittinopeus",
-        "no_active": "Ei aktiivisia striimejä"
-    },
-    "nzbget": {
-        "rate": "Nopeus",
-        "remaining": "Jäljellä",
-        "downloaded": "Ladattu"
-    },
-    "sabnzbd": {
-        "rate": "Nopeus",
-        "queue": "Jono",
-        "timeleft": "Aikaa jäljellä"
-    },
-    "rutorrent": {
-        "active": "Aktiivinen",
-        "upload": "Lähetys",
-        "download": "Lataus"
-    },
-    "transmission": {
-        "download": "Lataus",
-        "upload": "Lähetys",
-        "leech": "Lataajia",
-        "seed": "Lähettäjiä"
-    },
-    "qbittorrent": {
-        "download": "Lataus",
-        "upload": "Lähetys",
-        "leech": "Lataajia",
-        "seed": "Lähettäjiä"
-    },
-    "sonarr": {
-        "wanted": "Haluttu",
-        "queued": "Jonossa",
-        "series": "Sarja"
-    },
-    "radarr": {
-        "wanted": "Haluttu",
-        "queued": "Jonossa",
-        "movies": "Elokuvia",
-        "missing": "Missing"
-    },
-    "lidarr": {
-        "wanted": "Haluttu",
-        "queued": "Jonossa",
-        "albums": "Albumeja"
-    },
-    "readarr": {
-        "wanted": "Haluttu",
-        "queued": "Jonossa",
-        "books": "Kirjoja"
-    },
-    "bazarr": {
-        "missingEpisodes": "Puuttuvia jaksoja",
-        "missingMovies": "Puuttuvia elokuvia"
-    },
-    "ombi": {
-        "pending": "Vireillä",
-        "approved": "Hyväksytty",
-        "available": "Saatavilla"
-    },
-    "jellyseerr": {
-        "pending": "Vireillä",
-        "approved": "Hyväksytty",
-        "available": "Saatavilla"
-    },
-    "overseerr": {
-        "pending": "Vireillä",
-        "approved": "Hyväksytty",
-        "available": "Saatavilla",
-        "processing": "Processing"
-    },
-    "pihole": {
-        "queries": "Kyselyjä",
-        "blocked": "Estetty",
-        "gravity": "Vakavuus"
-    },
-    "adguard": {
-        "queries": "Kyselyjä",
-        "blocked": "Estetty",
-        "filtered": "Suodatettu",
-        "latency": "Viive"
-    },
-    "speedtest": {
-        "upload": "Lähetys",
-        "download": "Lataus",
-        "ping": "Viive"
-    },
-    "portainer": {
-        "running": "Käynnissä",
-        "stopped": "Pysäytetty",
-        "total": "Yhteensä"
-    },
-    "traefik": {
-        "routers": "Reitittimiä",
-        "services": "Palveluja",
-        "middleware": "Middlewareja"
-    },
-    "npm": {
-        "enabled": "Käytössä",
-        "disabled": "Poissa käytöstä",
-        "total": "Yhteensä"
-    },
-    "coinmarketcap": {
-        "configure": "Määritä yksi tai useampi kryptovaluutta seurattavaksi",
-        "1hour": "1 tunti",
-        "1day": "1 päivä",
-        "7days": "7 päivää",
-        "30days": "30 päivää"
-    },
-    "gotify": {
-        "apps": "Sovelluksia",
-        "clients": "Asiakasohjelmia",
-        "messages": "Viestejä"
-    },
-    "prowlarr": {
-        "enableIndexers": "Indeksoijia",
-        "numberOfGrabs": "Nappauksia",
-        "numberOfQueries": "Hakuja",
-        "numberOfFailGrabs": "Epäonnistuneita nappauksia",
-        "numberOfFailQueries": "Epäonnistuneita kyselyjä"
-    },
-    "jackett": {
-        "configured": "Määritettyjä",
-        "errored": "Virheellisiä"
-    },
-    "strelaysrv": {
-        "numActiveSessions": "Istuntoja",
-        "numConnections": "Yhteyksiä",
-        "dataRelayed": "Välitetty",
-        "transferRate": "Nopeus"
-    },
-    "mastodon": {
-        "user_count": "Käyttäjiä",
-        "status_count": "Kirjoituksia",
-        "domain_count": "Verkkotunnuksia"
-    },
-    "authentik": {
-        "users": "Käyttäjiä",
-        "loginsLast24H": "Kirjautumisia (24h)",
-        "failedLoginsLast24H": "Epäonnistuneita kirjautumisia (24h)"
-    },
-    "proxmox": {
-        "mem": "RAM",
-        "cpu": "CPU",
-        "lxc": "LXC",
-        "vms": "VKt"
-    },
-    "unifi": {
-        "users": "Users",
-        "uptime": "System Uptime",
-        "lan_users": "LAN Users",
-        "wlan_users": "WLAN Users",
-        "wait": "Odota, ole hyvä",
-        "days": "Days",
-        "wan": "WAN",
-        "up": "UP",
-        "down": "DOWN",
-        "devices": "Devices",
-        "lan_devices": "LAN Devices",
-        "lan": "LAN",
-        "wlan": "WLAN",
-        "wlan_devices": "WLAN Devices",
-        "empty_data": "Subsystem status unknown"
-    },
-    "plex": {
-        "streams": "Active Streams",
-        "movies": "Movies",
-        "tv": "TV Shows"
-    },
-    "glances": {
-        "wait": "Please wait",
-        "cpu": "CPU",
-        "mem": "MEM"
-    },
-    "changedetectionio": {
-        "totalObserved": "Total Observed",
-        "diffsDetected": "Diffs Detected"
-    },
-    "wmo": {
-        "3-day": "Cloudy",
-        "3-night": "Cloudy",
-        "45-day": "Foggy",
-        "0-day": "Sunny",
-        "0-night": "Clear",
-        "1-day": "Mainly Sunny",
-        "1-night": "Mainly Clear",
-        "2-day": "Partly Cloudy",
-        "2-night": "Partly Cloudy",
-        "45-night": "Foggy",
-        "48-day": "Foggy",
-        "48-night": "Foggy",
-        "51-day": "Light Drizzle",
-        "51-night": "Light Drizzle",
-        "53-day": "Drizzle",
-        "53-night": "Drizzle",
-        "55-day": "Heavy Drizzle",
-        "55-night": "Heavy Drizzle",
-        "56-day": "Light Freezing Drizzle",
-        "56-night": "Light Freezing Drizzle",
-        "57-day": "Freezing Drizzle",
-        "57-night": "Freezing Drizzle",
-        "61-day": "Light Rain",
-        "61-night": "Light Rain",
-        "63-day": "Rain",
-        "63-night": "Rain",
-        "65-day": "Heavy Rain",
-        "65-night": "Heavy Rain",
-        "66-day": "Freezing Rain",
-        "66-night": "Freezing Rain",
-        "67-day": "Freezing Rain",
-        "67-night": "Freezing Rain",
-        "71-day": "Light Snow",
-        "71-night": "Light Snow",
-        "73-day": "Snow",
-        "73-night": "Snow",
-        "75-day": "Heavy Snow",
-        "80-night": "Light Showers",
-        "75-night": "Heavy Snow",
-        "77-day": "Snow Grains",
-        "77-night": "Snow Grains",
-        "80-day": "Light Showers",
-        "81-day": "Showers",
-        "81-night": "Showers",
-        "82-day": "Heavy Showers",
-        "82-night": "Heavy Showers",
-        "85-day": "Snow Showers",
-        "85-night": "Snow Showers",
-        "86-day": "Snow Showers",
-        "86-night": "Snow Showers",
-        "95-day": "Thunderstorm",
-        "95-night": "Thunderstorm",
-        "96-day": "Thunderstorm With Hail",
-        "96-night": "Thunderstorm With Hail",
-        "99-day": "Thunderstorm With Hail",
-        "99-night": "Thunderstorm With Hail"
-    },
-    "quicklaunch": {
-        "bookmark": "Bookmark",
-        "service": "Service",
-        "search": "Search",
-        "custom": "Custom"
-    },
-    "homebridge": {
-        "available_update": "System",
-        "updates": "Updates",
-        "update_available": "Update Available",
-        "up_to_date": "Up to Date",
-        "child_bridges": "Child Bridges",
-        "child_bridges_status": "{{ok}}/{{total}}"
-    },
-    "autobrr": {
-        "approvedPushes": "Approved",
-        "rejectedPushes": "Rejected",
-        "filters": "Filters",
-        "indexers": "Indexers"
-    },
-    "watchtower": {
-        "containers_scanned": "Scanned",
-        "containers_updated": "Updated",
-        "containers_failed": "Failed"
-    },
-    "tubearchivist": {
-        "downloads": "Queue",
-        "videos": "Videos",
-        "channels": "Channels",
-        "playlists": "Playlists"
-    },
-    "truenas": {
-        "load": "System Load",
-        "uptime": "Uptime",
-        "alerts": "Alerts",
-        "time": "{{value, number(style: unit; unitDisplay: long;)}}"
-    },
-    "navidrome": {
-        "nothing_streaming": "No Active Streams",
-        "please_wait": "Odota, ole hyvä"
-    },
-    "pyload": {
-        "speed": "Speed",
-        "active": "Active",
-        "queue": "Queue",
-        "total": "Total"
-    },
-    "gluetun": {
-        "public_ip": "Public IP",
-        "region": "Region",
-        "country": "Country"
-    },
-    "hdhomerun": {
-        "channels": "Channels",
-        "hd": "HD"
-    },
-    "ping": {
-        "error": "Error",
-        "ping": "Ping"
-    },
-    "scrutiny": {
-        "passed": "Passed",
-        "failed": "Failed",
-        "unknown": "Unknown"
-    },
-    "paperlessngx": {
-        "inbox": "Inbox",
-        "total": "Total"
-    },
-    "deluge": {
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed",
-        "download": "Download"
-    },
-    "flood": {
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed"
-    },
-    "tdarr": {
-        "queue": "Queue",
-        "processed": "Processed",
-        "errored": "Errored",
-        "saved": "Saved"
-    },
-    "miniflux": {
-        "read": "Read",
-        "unread": "Unread"
-    },
-    "nextdns": {
-        "wait": "Please Wait",
-        "no_devices": "No Device Data Received"
-    },
-    "common": {
-        "bibyterate": "{{value, rate(bits: false; binary: true)}}",
-        "bibitrate": "{{value, rate(bits: true; binary: true)}}"
-    },
-    "omada": {
-        "connectedAp": "Connected APs",
-        "activeUser": "Active devices",
-        "alerts": "Alerts",
-        "connectedSwitches": "Connected switches",
-        "connectedGateway": "Connected gateways"
-    },
-    "downloadstation": {
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed"
-    },
-    "mikrotik": {
-        "cpuLoad": "CPU Load",
-        "memoryUsed": "Memory Used",
-        "uptime": "Uptime",
-        "numberOfLeases": "Leases"
-    },
-    "xteve": {
-        "streams_all": "All Streams",
-        "streams_active": "Active Streams",
-        "streams_xepg": "XEPG Channels"
-    },
-    "opnsense": {
-        "cpu": "CPU Load",
-        "memory": "Active Memory",
-        "wanUpload": "WAN Upload",
-        "wanDownload": "WAN Download"
-    },
-    "moonraker": {
-        "printer_state": "Printer State",
-        "print_status": "Print Status",
-        "print_progress": "Progress",
-        "layers": "Layers"
-    },
-    "medusa": {
-        "wanted": "Haluttu",
-        "queued": "Jonossa",
-        "series": "Sarja"
-    },
-    "octoprint": {
-        "printer_state": "Status",
-        "temp_tool": "Tool temp",
-        "temp_bed": "Bed temp",
-        "job_completion": "Completion"
-    },
-    "cloudflared": {
-        "origin_ip": "Origin IP",
-        "status": "Status"
-    },
-    "proxmoxbackupserver": {
-        "datastore_usage": "Datastore",
-        "failed_tasks_24h": "Failed Tasks 24h",
-        "cpu_usage": "CPU",
-        "memory_usage": "Memory"
-    },
-    "immich": {
-        "users": "Users",
-        "photos": "Photos",
-        "videos": "Videos",
-        "storage": "Storage"
-    },
-    "uptimekuma": {
-        "up": "Sites Up",
-        "down": "Sites Down",
-        "uptime": "Uptime",
-        "incident": "Incident",
-        "m": "m"
-    },
-    "komga": {
-        "libraries": "Libraries",
-        "series": "Series",
-        "books": "Books"
-    },
-    "mylar": {
-        "series": "Series",
-        "issues": "Issues",
-        "wanted": "Wanted"
-    },
-    "photoprism": {
-        "albums": "Albums",
-        "photos": "Photos",
-        "videos": "Videos",
-        "people": "People"
-    },
-    "diskstation": {
-        "days": "Days",
-        "uptime": "Uptime",
-        "volumeAvailable": "Available"
-    }
+  "widget": {
+    "missing_type": "Puuttuva härpäkkeen tyyppi: {{type}}",
+    "api_error": "API-virhe",
+    "status": "Tila",
+    "information": "Information",
+    "url": "URL",
+    "raw_error": "Raw Error",
+    "response_data": "Response Data"
+  },
+  "weather": {
+    "current": "Nykyinen sijainti",
+    "allow": "Klikkaa salliaksesi",
+    "updating": "Päivitetään",
+    "wait": "Odota, ole hyvä"
+  },
+  "search": {
+    "placeholder": "Hae…"
+  },
+  "resources": {
+    "cpu": "CPU",
+    "total": "Yhteensä",
+    "free": "Vapaana",
+    "used": "Käytetty",
+    "load": "Kuorma",
+    "mem": "MEM"
+  },
+  "docker": {
+    "rx": "RX",
+    "tx": "TX",
+    "mem": "RAM",
+    "cpu": "CPU",
+    "offline": "Offline",
+    "error": "Error",
+    "unknown": "Unknown"
+  },
+  "emby": {
+    "playing": "Toistaa",
+    "transcoding": "Transkoodaa",
+    "bitrate": "Bittinopeus",
+    "no_active": "Ei aktiivisia striimejä"
+  },
+  "tautulli": {
+    "playing": "Toistaa",
+    "transcoding": "Transkoodaa",
+    "bitrate": "Bittinopeus",
+    "no_active": "Ei aktiivisia striimejä"
+  },
+  "nzbget": {
+    "rate": "Nopeus",
+    "remaining": "Jäljellä",
+    "downloaded": "Ladattu"
+  },
+  "sabnzbd": {
+    "rate": "Nopeus",
+    "queue": "Jono",
+    "timeleft": "Aikaa jäljellä"
+  },
+  "rutorrent": {
+    "active": "Aktiivinen",
+    "upload": "Lähetys",
+    "download": "Lataus"
+  },
+  "transmission": {
+    "download": "Lataus",
+    "upload": "Lähetys",
+    "leech": "Lataajia",
+    "seed": "Lähettäjiä"
+  },
+  "qbittorrent": {
+    "download": "Lataus",
+    "upload": "Lähetys",
+    "leech": "Lataajia",
+    "seed": "Lähettäjiä"
+  },
+  "sonarr": {
+    "wanted": "Haluttu",
+    "queued": "Jonossa",
+    "series": "Sarja"
+  },
+  "radarr": {
+    "wanted": "Haluttu",
+    "queued": "Jonossa",
+    "movies": "Elokuvia",
+    "missing": "Missing"
+  },
+  "lidarr": {
+    "wanted": "Haluttu",
+    "queued": "Jonossa",
+    "albums": "Albumeja"
+  },
+  "readarr": {
+    "wanted": "Haluttu",
+    "queued": "Jonossa",
+    "books": "Kirjoja"
+  },
+  "bazarr": {
+    "missingEpisodes": "Puuttuvia jaksoja",
+    "missingMovies": "Puuttuvia elokuvia"
+  },
+  "ombi": {
+    "pending": "Vireillä",
+    "approved": "Hyväksytty",
+    "available": "Saatavilla"
+  },
+  "jellyseerr": {
+    "pending": "Vireillä",
+    "approved": "Hyväksytty",
+    "available": "Saatavilla"
+  },
+  "overseerr": {
+    "pending": "Vireillä",
+    "approved": "Hyväksytty",
+    "available": "Saatavilla",
+    "processing": "Processing"
+  },
+  "pihole": {
+    "queries": "Kyselyjä",
+    "blocked": "Estetty",
+    "gravity": "Vakavuus"
+  },
+  "adguard": {
+    "queries": "Kyselyjä",
+    "blocked": "Estetty",
+    "filtered": "Suodatettu",
+    "latency": "Viive"
+  },
+  "speedtest": {
+    "upload": "Lähetys",
+    "download": "Lataus",
+    "ping": "Viive"
+  },
+  "portainer": {
+    "running": "Käynnissä",
+    "stopped": "Pysäytetty",
+    "total": "Yhteensä"
+  },
+  "traefik": {
+    "routers": "Reitittimiä",
+    "services": "Palveluja",
+    "middleware": "Middlewareja"
+  },
+  "npm": {
+    "enabled": "Käytössä",
+    "disabled": "Poissa käytöstä",
+    "total": "Yhteensä"
+  },
+  "coinmarketcap": {
+    "configure": "Määritä yksi tai useampi kryptovaluutta seurattavaksi",
+    "1hour": "1 tunti",
+    "1day": "1 päivä",
+    "7days": "7 päivää",
+    "30days": "30 päivää"
+  },
+  "gotify": {
+    "apps": "Sovelluksia",
+    "clients": "Asiakasohjelmia",
+    "messages": "Viestejä"
+  },
+  "prowlarr": {
+    "enableIndexers": "Indeksoijia",
+    "numberOfGrabs": "Nappauksia",
+    "numberOfQueries": "Hakuja",
+    "numberOfFailGrabs": "Epäonnistuneita nappauksia",
+    "numberOfFailQueries": "Epäonnistuneita kyselyjä"
+  },
+  "jackett": {
+    "configured": "Määritettyjä",
+    "errored": "Virheellisiä"
+  },
+  "strelaysrv": {
+    "numActiveSessions": "Istuntoja",
+    "numConnections": "Yhteyksiä",
+    "dataRelayed": "Välitetty",
+    "transferRate": "Nopeus"
+  },
+  "mastodon": {
+    "user_count": "Käyttäjiä",
+    "status_count": "Kirjoituksia",
+    "domain_count": "Verkkotunnuksia"
+  },
+  "authentik": {
+    "users": "Käyttäjiä",
+    "loginsLast24H": "Kirjautumisia (24h)",
+    "failedLoginsLast24H": "Epäonnistuneita kirjautumisia (24h)"
+  },
+  "proxmox": {
+    "mem": "RAM",
+    "cpu": "CPU",
+    "lxc": "LXC",
+    "vms": "VKt"
+  },
+  "unifi": {
+    "users": "Users",
+    "uptime": "System Uptime",
+    "lan_users": "LAN Users",
+    "wlan_users": "WLAN Users",
+    "wait": "Odota, ole hyvä",
+    "days": "Days",
+    "wan": "WAN",
+    "up": "UP",
+    "down": "DOWN",
+    "devices": "Devices",
+    "lan_devices": "LAN Devices",
+    "lan": "LAN",
+    "wlan": "WLAN",
+    "wlan_devices": "WLAN Devices",
+    "empty_data": "Subsystem status unknown"
+  },
+  "plex": {
+    "streams": "Active Streams",
+    "movies": "Movies",
+    "tv": "TV Shows"
+  },
+  "glances": {
+    "wait": "Please wait",
+    "cpu": "CPU",
+    "mem": "MEM"
+  },
+  "changedetectionio": {
+    "totalObserved": "Total Observed",
+    "diffsDetected": "Diffs Detected"
+  },
+  "wmo": {
+    "3-day": "Cloudy",
+    "3-night": "Cloudy",
+    "45-day": "Foggy",
+    "0-day": "Sunny",
+    "0-night": "Clear",
+    "1-day": "Mainly Sunny",
+    "1-night": "Mainly Clear",
+    "2-day": "Partly Cloudy",
+    "2-night": "Partly Cloudy",
+    "45-night": "Foggy",
+    "48-day": "Foggy",
+    "48-night": "Foggy",
+    "51-day": "Light Drizzle",
+    "51-night": "Light Drizzle",
+    "53-day": "Drizzle",
+    "53-night": "Drizzle",
+    "55-day": "Heavy Drizzle",
+    "55-night": "Heavy Drizzle",
+    "56-day": "Light Freezing Drizzle",
+    "56-night": "Light Freezing Drizzle",
+    "57-day": "Freezing Drizzle",
+    "57-night": "Freezing Drizzle",
+    "61-day": "Light Rain",
+    "61-night": "Light Rain",
+    "63-day": "Rain",
+    "63-night": "Rain",
+    "65-day": "Heavy Rain",
+    "65-night": "Heavy Rain",
+    "66-day": "Freezing Rain",
+    "66-night": "Freezing Rain",
+    "67-day": "Freezing Rain",
+    "67-night": "Freezing Rain",
+    "71-day": "Light Snow",
+    "71-night": "Light Snow",
+    "73-day": "Snow",
+    "73-night": "Snow",
+    "75-day": "Heavy Snow",
+    "80-night": "Light Showers",
+    "75-night": "Heavy Snow",
+    "77-day": "Snow Grains",
+    "77-night": "Snow Grains",
+    "80-day": "Light Showers",
+    "81-day": "Showers",
+    "81-night": "Showers",
+    "82-day": "Heavy Showers",
+    "82-night": "Heavy Showers",
+    "85-day": "Snow Showers",
+    "85-night": "Snow Showers",
+    "86-day": "Snow Showers",
+    "86-night": "Snow Showers",
+    "95-day": "Thunderstorm",
+    "95-night": "Thunderstorm",
+    "96-day": "Thunderstorm With Hail",
+    "96-night": "Thunderstorm With Hail",
+    "99-day": "Thunderstorm With Hail",
+    "99-night": "Thunderstorm With Hail"
+  },
+  "quicklaunch": {
+    "bookmark": "Bookmark",
+    "service": "Service",
+    "search": "Search",
+    "custom": "Custom"
+  },
+  "homebridge": {
+    "available_update": "System",
+    "updates": "Updates",
+    "update_available": "Update Available",
+    "up_to_date": "Up to Date",
+    "child_bridges": "Child Bridges",
+    "child_bridges_status": "{{ok}}/{{total}}"
+  },
+  "autobrr": {
+    "approvedPushes": "Approved",
+    "rejectedPushes": "Rejected",
+    "filters": "Filters",
+    "indexers": "Indexers"
+  },
+  "watchtower": {
+    "containers_scanned": "Scanned",
+    "containers_updated": "Updated",
+    "containers_failed": "Failed"
+  },
+  "tubearchivist": {
+    "downloads": "Queue",
+    "videos": "Videos",
+    "channels": "Channels",
+    "playlists": "Playlists"
+  },
+  "truenas": {
+    "load": "System Load",
+    "uptime": "Uptime",
+    "alerts": "Alerts",
+    "time": "{{value, number(style: unit; unitDisplay: long;)}}"
+  },
+  "navidrome": {
+    "nothing_streaming": "No Active Streams",
+    "please_wait": "Odota, ole hyvä"
+  },
+  "pyload": {
+    "speed": "Speed",
+    "active": "Active",
+    "queue": "Queue",
+    "total": "Total"
+  },
+  "gluetun": {
+    "public_ip": "Public IP",
+    "region": "Region",
+    "country": "Country"
+  },
+  "hdhomerun": {
+    "channels": "Channels",
+    "hd": "HD"
+  },
+  "ping": {
+    "error": "Error",
+    "ping": "Ping"
+  },
+  "scrutiny": {
+    "passed": "Passed",
+    "failed": "Failed",
+    "unknown": "Unknown"
+  },
+  "paperlessngx": {
+    "inbox": "Inbox",
+    "total": "Total"
+  },
+  "deluge": {
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed",
+    "download": "Download"
+  },
+  "flood": {
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed"
+  },
+  "tdarr": {
+    "queue": "Queue",
+    "processed": "Processed",
+    "errored": "Errored",
+    "saved": "Saved"
+  },
+  "miniflux": {
+    "read": "Read",
+    "unread": "Unread"
+  },
+  "nextdns": {
+    "wait": "Please Wait",
+    "no_devices": "No Device Data Received"
+  },
+  "common": {
+    "bibyterate": "{{value, rate(bits: false; binary: true)}}",
+    "bibitrate": "{{value, rate(bits: true; binary: true)}}"
+  },
+  "omada": {
+    "connectedAp": "Connected APs",
+    "activeUser": "Active devices",
+    "alerts": "Alerts",
+    "connectedSwitches": "Connected switches",
+    "connectedGateway": "Connected gateways"
+  },
+  "downloadstation": {
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed"
+  },
+  "mikrotik": {
+    "cpuLoad": "CPU Load",
+    "memoryUsed": "Memory Used",
+    "uptime": "Uptime",
+    "numberOfLeases": "Leases"
+  },
+  "xteve": {
+    "streams_all": "All Streams",
+    "streams_active": "Active Streams",
+    "streams_xepg": "XEPG Channels"
+  },
+  "opnsense": {
+    "cpu": "CPU Load",
+    "memory": "Active Memory",
+    "wanUpload": "WAN Upload",
+    "wanDownload": "WAN Download"
+  },
+  "moonraker": {
+    "printer_state": "Printer State",
+    "print_status": "Print Status",
+    "print_progress": "Progress",
+    "layers": "Layers"
+  },
+  "medusa": {
+    "wanted": "Haluttu",
+    "queued": "Jonossa",
+    "series": "Sarja"
+  },
+  "octoprint": {
+    "printer_state": "Status",
+    "temp_tool": "Tool temp",
+    "temp_bed": "Bed temp",
+    "job_completion": "Completion"
+  },
+  "cloudflared": {
+    "origin_ip": "Origin IP",
+    "status": "Status"
+  },
+  "proxmoxbackupserver": {
+    "datastore_usage": "Datastore",
+    "failed_tasks_24h": "Failed Tasks 24h",
+    "cpu_usage": "CPU",
+    "memory_usage": "Memory"
+  },
+  "immich": {
+    "users": "Users",
+    "photos": "Photos",
+    "videos": "Videos",
+    "storage": "Storage"
+  },
+  "uptimekuma": {
+    "up": "Sites Up",
+    "down": "Sites Down",
+    "uptime": "Uptime",
+    "incident": "Incident",
+    "m": "m"
+  },
+  "komga": {
+    "libraries": "Libraries",
+    "series": "Series",
+    "books": "Books"
+  },
+  "mylar": {
+    "series": "Series",
+    "issues": "Issues",
+    "wanted": "Wanted"
+  },
+  "photoprism": {
+    "albums": "Albums",
+    "photos": "Photos",
+    "videos": "Videos",
+    "people": "People"
+  },
+  "diskstation": {
+    "days": "Days",
+    "uptime": "Uptime",
+    "volumeAvailable": "Available"
+  },
+  "spaceflight": {
+    "net": "Net",
+    "mission": "Mission",
+    "status": "Status"
+  }
 }

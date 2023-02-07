@@ -1,472 +1,477 @@
 {
-    "sabnzbd": {
-        "timeleft": "Tempo restante",
-        "rate": "Taxa",
-        "queue": "Fila"
-    },
-    "rutorrent": {
-        "active": "Ativo",
-        "upload": "Envio",
-        "download": "Download"
-    },
-    "portainer": {
-        "total": "Total",
-        "running": "Funcionando",
-        "stopped": "Parado"
-    },
-    "coinmarketcap": {
-        "7days": "7 Dias",
-        "configure": "Configure uma ou mais criptomoedas para rastrear",
-        "1hour": "1 Hora",
-        "1day": "1 Dia",
-        "30days": "30 Dias"
-    },
-    "strelaysrv": {
-        "numConnections": "Conexões",
-        "numActiveSessions": "Sessões",
-        "dataRelayed": "Retransmitido",
-        "transferRate": "Taxa"
-    },
-    "widget": {
-        "missing_type": "Tipo de Widget ausente: {{type}}",
-        "api_error": "Erro da API",
-        "status": "Status",
-        "information": "Informação",
-        "url": "URL",
-        "raw_error": "Raw Error",
-        "response_data": "Dados de Resposta"
-    },
-    "weather": {
-        "current": "Localização atual",
-        "allow": "Clique para permitir",
-        "updating": "Atualizando",
-        "wait": "Aguarde, por favor"
-    },
-    "search": {
-        "placeholder": "Buscar…"
-    },
-    "resources": {
-        "total": "Total",
-        "free": "Livre",
-        "used": "Usado",
-        "load": "Carregamento",
-        "cpu": "CPU",
-        "mem": "MEM"
-    },
-    "docker": {
-        "rx": "Recebido",
-        "tx": "Transmitido",
-        "mem": "Memória",
-        "cpu": "CPU",
-        "offline": "Desligado",
-        "error": "Erro",
-        "unknown": "Desconhecido"
-    },
-    "emby": {
-        "playing": "Reproduzindo",
-        "transcoding": "Transcodificando",
-        "bitrate": "Taxa de bits",
-        "no_active": "Sem transmissões ativas"
-    },
-    "tautulli": {
-        "playing": "Reproduzindo",
-        "transcoding": "Transcodificando",
-        "bitrate": "Taxa de bits",
-        "no_active": "Sem transmissões ativas"
-    },
-    "nzbget": {
-        "rate": "Taxa",
-        "remaining": "Restando",
-        "downloaded": "Baixado"
-    },
-    "transmission": {
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed"
-    },
-    "qbittorrent": {
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed"
-    },
-    "sonarr": {
-        "wanted": "Desejado",
-        "queued": "Na fila",
-        "series": "Séries"
-    },
-    "radarr": {
-        "wanted": "Desejado",
-        "queued": "Na fila",
-        "movies": "Filmes",
-        "missing": "Faltando"
-    },
-    "lidarr": {
-        "wanted": "Desejado",
-        "queued": "Na fila",
-        "albums": "Álbuns"
-    },
-    "readarr": {
-        "wanted": "Desejado",
-        "queued": "Na fila",
-        "books": "Livros"
-    },
-    "bazarr": {
-        "missingEpisodes": "Episódios Ausentes",
-        "missingMovies": "Filmes Ausentes"
-    },
-    "ombi": {
-        "pending": "Pendente",
-        "approved": "Aprovado",
-        "available": "Disponível"
-    },
-    "jellyseerr": {
-        "pending": "Pendente",
-        "approved": "Aprovado",
-        "available": "Disponível"
-    },
-    "overseerr": {
-        "pending": "Pendente",
-        "approved": "Aprovado",
-        "available": "Disponível",
-        "processing": "Processando"
-    },
-    "pihole": {
-        "queries": "Consultas",
-        "blocked": "Bloquado",
-        "gravity": "Gravity"
-    },
-    "adguard": {
-        "queries": "Consultas",
-        "blocked": "Bloqueado",
-        "filtered": "Filtrado",
-        "latency": "Latência"
-    },
-    "speedtest": {
-        "upload": "Envio",
-        "download": "Receber",
-        "ping": "Ping"
-    },
-    "traefik": {
-        "routers": "Roteadores",
-        "services": "Serviços",
-        "middleware": "Software intermediario"
-    },
-    "npm": {
-        "enabled": "Habilitado",
-        "disabled": "Desabilitado",
-        "total": "Total"
-    },
-    "gotify": {
-        "apps": "Aplicações",
-        "clients": "Clientes",
-        "messages": "Mensagens"
-    },
-    "prowlarr": {
-        "enableIndexers": "Indexadores",
-        "numberOfGrabs": "Pegos",
-        "numberOfQueries": "Consultas",
-        "numberOfFailGrabs": "Fail Grabs",
-        "numberOfFailQueries": "Consultas Falhas"
-    },
-    "jackett": {
-        "configured": "Configurado",
-        "errored": "Erro"
-    },
-    "mastodon": {
-        "user_count": "Usuários",
-        "status_count": "Postagens",
-        "domain_count": "Domínios"
-    },
-    "authentik": {
-        "users": "Usuários",
-        "loginsLast24H": "Logins (24h)",
-        "failedLoginsLast24H": "Failed Logins (24h)"
-    },
-    "proxmox": {
-        "mem": "Memória",
-        "cpu": "Processador",
-        "lxc": "LXC",
-        "vms": "VMs"
-    },
-    "unifi": {
-        "users": "Usuários",
-        "uptime": "Tempo de Funcionamento",
-        "days": "Dias",
-        "wan": "WAN",
-        "lan_users": "Usuarios locais",
-        "wlan_users": "Usuarios WLAN",
-        "up": "LIGADO",
-        "down": "CÁIDO",
-        "wait": "Por favor guarde",
-        "lan": "LAN",
-        "wlan": "WLAN",
-        "devices": "Dispositivos",
-        "lan_devices": "Dispositivos LAN",
-        "wlan_devices": "Dispositivos WLAN",
-        "empty_data": "Subsystem status unknown"
-    },
-    "plex": {
-        "streams": "Transmissões ativas",
-        "movies": "Filmes",
-        "tv": "Séries de TV"
-    },
-    "glances": {
-        "cpu": "CPU",
-        "mem": "MEM",
-        "wait": "Please wait"
-    },
-    "changedetectionio": {
-        "totalObserved": "Observados",
-        "diffsDetected": "Mudanças"
-    },
-    "wmo": {
-        "1-night": "Mainly Clear",
-        "2-day": "Partly Cloudy",
-        "2-night": "Parcialmente nublado",
-        "3-day": "Nublado",
-        "3-night": "Nublado",
-        "45-day": "Névoa",
-        "45-night": "Foggy",
-        "48-day": "Foggy",
-        "48-night": "Foggy",
-        "56-night": "Light Freezing Drizzle",
-        "57-day": "Freezing Drizzle",
-        "99-day": "Thunderstorm With Hail",
-        "99-night": "Thunderstorm With Hail",
-        "0-day": "Ensolarado",
-        "53-day": "Drizzle",
-        "0-night": "Limpo",
-        "1-day": "Mainly Sunny",
-        "51-day": "Light Drizzle",
-        "51-night": "Light Drizzle",
-        "53-night": "Drizzle",
-        "55-day": "Heavy Drizzle",
-        "55-night": "Heavy Drizzle",
-        "56-day": "Light Freezing Drizzle",
-        "57-night": "Freezing Drizzle",
-        "61-day": "Light Rain",
-        "61-night": "Light Rain",
-        "63-day": "Rain",
-        "63-night": "Rain",
-        "65-day": "Heavy Rain",
-        "65-night": "Heavy Rain",
-        "66-day": "Freezing Rain",
-        "66-night": "Freezing Rain",
-        "67-day": "Freezing Rain",
-        "67-night": "Freezing Rain",
-        "71-day": "Light Snow",
-        "71-night": "Light Snow",
-        "73-day": "Snow",
-        "73-night": "Snow",
-        "75-day": "Heavy Snow",
-        "75-night": "Heavy Snow",
-        "77-day": "Snow Grains",
-        "77-night": "Snow Grains",
-        "80-day": "Light Showers",
-        "80-night": "Light Showers",
-        "81-day": "Showers",
-        "81-night": "Showers",
-        "82-day": "Heavy Showers",
-        "82-night": "Heavy Showers",
-        "85-day": "Snow Showers",
-        "85-night": "Snow Showers",
-        "86-day": "Snow Showers",
-        "86-night": "Snow Showers",
-        "95-day": "Thunderstorm",
-        "95-night": "Thunderstorm",
-        "96-day": "Thunderstorm With Hail",
-        "96-night": "Thunderstorm With Hail"
-    },
-    "quicklaunch": {
-        "bookmark": "Bookmark",
-        "service": "Service",
-        "search": "Search",
-        "custom": "Custom"
-    },
-    "homebridge": {
-        "available_update": "System",
-        "updates": "Updates",
-        "update_available": "Update Available",
-        "up_to_date": "Up to Date",
-        "child_bridges": "Child Bridges",
-        "child_bridges_status": "{{ok}}/{{total}}"
-    },
-    "autobrr": {
-        "approvedPushes": "Approved",
-        "rejectedPushes": "Rejected",
-        "filters": "Filters",
-        "indexers": "Indexers"
-    },
-    "watchtower": {
-        "containers_scanned": "Scanned",
-        "containers_updated": "Updated",
-        "containers_failed": "Failed"
-    },
-    "tubearchivist": {
-        "downloads": "Queue",
-        "videos": "Videos",
-        "channels": "Channels",
-        "playlists": "Playlists"
-    },
-    "truenas": {
-        "load": "System Load",
-        "uptime": "Uptime",
-        "alerts": "Alerts",
-        "time": "{{value, number(style: unit; unitDisplay: long;)}}"
-    },
-    "navidrome": {
-        "nothing_streaming": "Sem transmissões ativas",
-        "please_wait": "Por favor aguarde"
-    },
-    "pyload": {
-        "speed": "Speed",
-        "active": "Active",
-        "queue": "Queue",
-        "total": "Total"
-    },
-    "gluetun": {
-        "public_ip": "Public IP",
-        "region": "Region",
-        "country": "Country"
-    },
-    "hdhomerun": {
-        "channels": "Channels",
-        "hd": "HD"
-    },
-    "ping": {
-        "error": "Erro",
-        "ping": "Ping"
-    },
-    "scrutiny": {
-        "passed": "Passed",
-        "failed": "Failed",
-        "unknown": "Unknown"
-    },
-    "paperlessngx": {
-        "inbox": "Inbox",
-        "total": "Total"
-    },
-    "deluge": {
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed"
-    },
-    "flood": {
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed"
-    },
-    "tdarr": {
-        "queue": "Fila",
-        "processed": "Processado",
-        "errored": "Erro",
-        "saved": "Salvo"
-    },
-    "miniflux": {
-        "read": "Lidos",
-        "unread": "Não Lidos"
-    },
-    "nextdns": {
-        "wait": "Please Wait",
-        "no_devices": "No Device Data Received"
-    },
-    "common": {
-        "bibyterate": "{{value, rate(bits: false; binary: true)}}",
-        "bibitrate": "{{value, rate(bits: true; binary: true)}}"
-    },
-    "omada": {
-        "connectedAp": "Pontos de acesso conectados",
-        "activeUser": "Dispositivos ativos",
-        "alerts": "Alertas",
-        "connectedGateway": "Gateways conectados",
-        "connectedSwitches": "Interruptores conectados"
-    },
-    "downloadstation": {
-        "download": "Download",
-        "upload": "Upload",
-        "leech": "Leech",
-        "seed": "Seed"
-    },
-    "mikrotik": {
-        "cpuLoad": "CPU Load",
-        "memoryUsed": "Memory Used",
-        "uptime": "Uptime",
-        "numberOfLeases": "Leases"
-    },
-    "xteve": {
-        "streams_all": "All Streams",
-        "streams_active": "Active Streams",
-        "streams_xepg": "XEPG Channels"
-    },
-    "opnsense": {
-        "cpu": "CPU Load",
-        "memory": "Active Memory",
-        "wanUpload": "WAN Upload",
-        "wanDownload": "WAN Download"
-    },
-    "moonraker": {
-        "printer_state": "Printer State",
-        "print_status": "Print Status",
-        "print_progress": "Progress",
-        "layers": "Layers"
-    },
-    "medusa": {
-        "wanted": "Wanted",
-        "queued": "Queued",
-        "series": "Series"
-    },
-    "octoprint": {
-        "printer_state": "Status",
-        "temp_tool": "Tool temp",
-        "temp_bed": "Bed temp",
-        "job_completion": "Completion"
-    },
-    "cloudflared": {
-        "origin_ip": "Origin IP",
-        "status": "Status"
-    },
-    "proxmoxbackupserver": {
-        "datastore_usage": "Datastore",
-        "failed_tasks_24h": "Failed Tasks 24h",
-        "cpu_usage": "CPU",
-        "memory_usage": "Memory"
-    },
-    "immich": {
-        "users": "Users",
-        "photos": "Photos",
-        "videos": "Videos",
-        "storage": "Storage"
-    },
-    "uptimekuma": {
-        "up": "Sites Up",
-        "down": "Sites Down",
-        "uptime": "Uptime",
-        "incident": "Incident",
-        "m": "m"
-    },
-    "komga": {
-        "libraries": "Libraries",
-        "series": "Series",
-        "books": "Books"
-    },
-    "mylar": {
-        "series": "Series",
-        "issues": "Issues",
-        "wanted": "Wanted"
-    },
-    "photoprism": {
-        "videos": "Videos",
-        "albums": "Albums",
-        "photos": "Photos",
-        "people": "People"
-    },
-    "diskstation": {
-        "days": "Days",
-        "uptime": "Uptime",
-        "volumeAvailable": "Available"
-    }
+  "sabnzbd": {
+    "timeleft": "Tempo restante",
+    "rate": "Taxa",
+    "queue": "Fila"
+  },
+  "rutorrent": {
+    "active": "Ativo",
+    "upload": "Envio",
+    "download": "Download"
+  },
+  "portainer": {
+    "total": "Total",
+    "running": "Funcionando",
+    "stopped": "Parado"
+  },
+  "coinmarketcap": {
+    "7days": "7 Dias",
+    "configure": "Configure uma ou mais criptomoedas para rastrear",
+    "1hour": "1 Hora",
+    "1day": "1 Dia",
+    "30days": "30 Dias"
+  },
+  "strelaysrv": {
+    "numConnections": "Conexões",
+    "numActiveSessions": "Sessões",
+    "dataRelayed": "Retransmitido",
+    "transferRate": "Taxa"
+  },
+  "widget": {
+    "missing_type": "Tipo de Widget ausente: {{type}}",
+    "api_error": "Erro da API",
+    "status": "Status",
+    "information": "Informação",
+    "url": "URL",
+    "raw_error": "Raw Error",
+    "response_data": "Dados de Resposta"
+  },
+  "weather": {
+    "current": "Localização atual",
+    "allow": "Clique para permitir",
+    "updating": "Atualizando",
+    "wait": "Aguarde, por favor"
+  },
+  "search": {
+    "placeholder": "Buscar…"
+  },
+  "resources": {
+    "total": "Total",
+    "free": "Livre",
+    "used": "Usado",
+    "load": "Carregamento",
+    "cpu": "CPU",
+    "mem": "MEM"
+  },
+  "docker": {
+    "rx": "Recebido",
+    "tx": "Transmitido",
+    "mem": "Memória",
+    "cpu": "CPU",
+    "offline": "Desligado",
+    "error": "Erro",
+    "unknown": "Desconhecido"
+  },
+  "emby": {
+    "playing": "Reproduzindo",
+    "transcoding": "Transcodificando",
+    "bitrate": "Taxa de bits",
+    "no_active": "Sem transmissões ativas"
+  },
+  "tautulli": {
+    "playing": "Reproduzindo",
+    "transcoding": "Transcodificando",
+    "bitrate": "Taxa de bits",
+    "no_active": "Sem transmissões ativas"
+  },
+  "nzbget": {
+    "rate": "Taxa",
+    "remaining": "Restando",
+    "downloaded": "Baixado"
+  },
+  "transmission": {
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed"
+  },
+  "qbittorrent": {
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed"
+  },
+  "sonarr": {
+    "wanted": "Desejado",
+    "queued": "Na fila",
+    "series": "Séries"
+  },
+  "radarr": {
+    "wanted": "Desejado",
+    "queued": "Na fila",
+    "movies": "Filmes",
+    "missing": "Faltando"
+  },
+  "lidarr": {
+    "wanted": "Desejado",
+    "queued": "Na fila",
+    "albums": "Álbuns"
+  },
+  "readarr": {
+    "wanted": "Desejado",
+    "queued": "Na fila",
+    "books": "Livros"
+  },
+  "bazarr": {
+    "missingEpisodes": "Episódios Ausentes",
+    "missingMovies": "Filmes Ausentes"
+  },
+  "ombi": {
+    "pending": "Pendente",
+    "approved": "Aprovado",
+    "available": "Disponível"
+  },
+  "jellyseerr": {
+    "pending": "Pendente",
+    "approved": "Aprovado",
+    "available": "Disponível"
+  },
+  "overseerr": {
+    "pending": "Pendente",
+    "approved": "Aprovado",
+    "available": "Disponível",
+    "processing": "Processando"
+  },
+  "pihole": {
+    "queries": "Consultas",
+    "blocked": "Bloquado",
+    "gravity": "Gravity"
+  },
+  "adguard": {
+    "queries": "Consultas",
+    "blocked": "Bloqueado",
+    "filtered": "Filtrado",
+    "latency": "Latência"
+  },
+  "speedtest": {
+    "upload": "Envio",
+    "download": "Receber",
+    "ping": "Ping"
+  },
+  "traefik": {
+    "routers": "Roteadores",
+    "services": "Serviços",
+    "middleware": "Software intermediario"
+  },
+  "npm": {
+    "enabled": "Habilitado",
+    "disabled": "Desabilitado",
+    "total": "Total"
+  },
+  "gotify": {
+    "apps": "Aplicações",
+    "clients": "Clientes",
+    "messages": "Mensagens"
+  },
+  "prowlarr": {
+    "enableIndexers": "Indexadores",
+    "numberOfGrabs": "Pegos",
+    "numberOfQueries": "Consultas",
+    "numberOfFailGrabs": "Fail Grabs",
+    "numberOfFailQueries": "Consultas Falhas"
+  },
+  "jackett": {
+    "configured": "Configurado",
+    "errored": "Erro"
+  },
+  "mastodon": {
+    "user_count": "Usuários",
+    "status_count": "Postagens",
+    "domain_count": "Domínios"
+  },
+  "authentik": {
+    "users": "Usuários",
+    "loginsLast24H": "Logins (24h)",
+    "failedLoginsLast24H": "Failed Logins (24h)"
+  },
+  "proxmox": {
+    "mem": "Memória",
+    "cpu": "Processador",
+    "lxc": "LXC",
+    "vms": "VMs"
+  },
+  "unifi": {
+    "users": "Usuários",
+    "uptime": "Tempo de Funcionamento",
+    "days": "Dias",
+    "wan": "WAN",
+    "lan_users": "Usuarios locais",
+    "wlan_users": "Usuarios WLAN",
+    "up": "LIGADO",
+    "down": "CÁIDO",
+    "wait": "Por favor guarde",
+    "lan": "LAN",
+    "wlan": "WLAN",
+    "devices": "Dispositivos",
+    "lan_devices": "Dispositivos LAN",
+    "wlan_devices": "Dispositivos WLAN",
+    "empty_data": "Subsystem status unknown"
+  },
+  "plex": {
+    "streams": "Transmissões ativas",
+    "movies": "Filmes",
+    "tv": "Séries de TV"
+  },
+  "glances": {
+    "cpu": "CPU",
+    "mem": "MEM",
+    "wait": "Please wait"
+  },
+  "changedetectionio": {
+    "totalObserved": "Observados",
+    "diffsDetected": "Mudanças"
+  },
+  "wmo": {
+    "1-night": "Mainly Clear",
+    "2-day": "Partly Cloudy",
+    "2-night": "Parcialmente nublado",
+    "3-day": "Nublado",
+    "3-night": "Nublado",
+    "45-day": "Névoa",
+    "45-night": "Foggy",
+    "48-day": "Foggy",
+    "48-night": "Foggy",
+    "56-night": "Light Freezing Drizzle",
+    "57-day": "Freezing Drizzle",
+    "99-day": "Thunderstorm With Hail",
+    "99-night": "Thunderstorm With Hail",
+    "0-day": "Ensolarado",
+    "53-day": "Drizzle",
+    "0-night": "Limpo",
+    "1-day": "Mainly Sunny",
+    "51-day": "Light Drizzle",
+    "51-night": "Light Drizzle",
+    "53-night": "Drizzle",
+    "55-day": "Heavy Drizzle",
+    "55-night": "Heavy Drizzle",
+    "56-day": "Light Freezing Drizzle",
+    "57-night": "Freezing Drizzle",
+    "61-day": "Light Rain",
+    "61-night": "Light Rain",
+    "63-day": "Rain",
+    "63-night": "Rain",
+    "65-day": "Heavy Rain",
+    "65-night": "Heavy Rain",
+    "66-day": "Freezing Rain",
+    "66-night": "Freezing Rain",
+    "67-day": "Freezing Rain",
+    "67-night": "Freezing Rain",
+    "71-day": "Light Snow",
+    "71-night": "Light Snow",
+    "73-day": "Snow",
+    "73-night": "Snow",
+    "75-day": "Heavy Snow",
+    "75-night": "Heavy Snow",
+    "77-day": "Snow Grains",
+    "77-night": "Snow Grains",
+    "80-day": "Light Showers",
+    "80-night": "Light Showers",
+    "81-day": "Showers",
+    "81-night": "Showers",
+    "82-day": "Heavy Showers",
+    "82-night": "Heavy Showers",
+    "85-day": "Snow Showers",
+    "85-night": "Snow Showers",
+    "86-day": "Snow Showers",
+    "86-night": "Snow Showers",
+    "95-day": "Thunderstorm",
+    "95-night": "Thunderstorm",
+    "96-day": "Thunderstorm With Hail",
+    "96-night": "Thunderstorm With Hail"
+  },
+  "quicklaunch": {
+    "bookmark": "Bookmark",
+    "service": "Service",
+    "search": "Search",
+    "custom": "Custom"
+  },
+  "homebridge": {
+    "available_update": "System",
+    "updates": "Updates",
+    "update_available": "Update Available",
+    "up_to_date": "Up to Date",
+    "child_bridges": "Child Bridges",
+    "child_bridges_status": "{{ok}}/{{total}}"
+  },
+  "autobrr": {
+    "approvedPushes": "Approved",
+    "rejectedPushes": "Rejected",
+    "filters": "Filters",
+    "indexers": "Indexers"
+  },
+  "watchtower": {
+    "containers_scanned": "Scanned",
+    "containers_updated": "Updated",
+    "containers_failed": "Failed"
+  },
+  "tubearchivist": {
+    "downloads": "Queue",
+    "videos": "Videos",
+    "channels": "Channels",
+    "playlists": "Playlists"
+  },
+  "truenas": {
+    "load": "System Load",
+    "uptime": "Uptime",
+    "alerts": "Alerts",
+    "time": "{{value, number(style: unit; unitDisplay: long;)}}"
+  },
+  "navidrome": {
+    "nothing_streaming": "Sem transmissões ativas",
+    "please_wait": "Por favor aguarde"
+  },
+  "pyload": {
+    "speed": "Speed",
+    "active": "Active",
+    "queue": "Queue",
+    "total": "Total"
+  },
+  "gluetun": {
+    "public_ip": "Public IP",
+    "region": "Region",
+    "country": "Country"
+  },
+  "hdhomerun": {
+    "channels": "Channels",
+    "hd": "HD"
+  },
+  "ping": {
+    "error": "Erro",
+    "ping": "Ping"
+  },
+  "scrutiny": {
+    "passed": "Passed",
+    "failed": "Failed",
+    "unknown": "Unknown"
+  },
+  "paperlessngx": {
+    "inbox": "Inbox",
+    "total": "Total"
+  },
+  "deluge": {
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed"
+  },
+  "flood": {
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed"
+  },
+  "tdarr": {
+    "queue": "Fila",
+    "processed": "Processado",
+    "errored": "Erro",
+    "saved": "Salvo"
+  },
+  "miniflux": {
+    "read": "Lidos",
+    "unread": "Não Lidos"
+  },
+  "nextdns": {
+    "wait": "Please Wait",
+    "no_devices": "No Device Data Received"
+  },
+  "common": {
+    "bibyterate": "{{value, rate(bits: false; binary: true)}}",
+    "bibitrate": "{{value, rate(bits: true; binary: true)}}"
+  },
+  "omada": {
+    "connectedAp": "Pontos de acesso conectados",
+    "activeUser": "Dispositivos ativos",
+    "alerts": "Alertas",
+    "connectedGateway": "Gateways conectados",
+    "connectedSwitches": "Interruptores conectados"
+  },
+  "downloadstation": {
+    "download": "Download",
+    "upload": "Upload",
+    "leech": "Leech",
+    "seed": "Seed"
+  },
+  "mikrotik": {
+    "cpuLoad": "CPU Load",
+    "memoryUsed": "Memory Used",
+    "uptime": "Uptime",
+    "numberOfLeases": "Leases"
+  },
+  "xteve": {
+    "streams_all": "All Streams",
+    "streams_active": "Active Streams",
+    "streams_xepg": "XEPG Channels"
+  },
+  "opnsense": {
+    "cpu": "CPU Load",
+    "memory": "Active Memory",
+    "wanUpload": "WAN Upload",
+    "wanDownload": "WAN Download"
+  },
+  "moonraker": {
+    "printer_state": "Printer State",
+    "print_status": "Print Status",
+    "print_progress": "Progress",
+    "layers": "Layers"
+  },
+  "medusa": {
+    "wanted": "Wanted",
+    "queued": "Queued",
+    "series": "Series"
+  },
+  "octoprint": {
+    "printer_state": "Status",
+    "temp_tool": "Tool temp",
+    "temp_bed": "Bed temp",
+    "job_completion": "Completion"
+  },
+  "cloudflared": {
+    "origin_ip": "Origin IP",
+    "status": "Status"
+  },
+  "proxmoxbackupserver": {
+    "datastore_usage": "Datastore",
+    "failed_tasks_24h": "Failed Tasks 24h",
+    "cpu_usage": "CPU",
+    "memory_usage": "Memory"
+  },
+  "immich": {
+    "users": "Users",
+    "photos": "Photos",
+    "videos": "Videos",
+    "storage": "Storage"
+  },
+  "uptimekuma": {
+    "up": "Sites Up",
+    "down": "Sites Down",
+    "uptime": "Uptime",
+    "incident": "Incident",
+    "m": "m"
+  },
+  "komga": {
+    "libraries": "Libraries",
+    "series": "Series",
+    "books": "Books"
+  },
+  "mylar": {
+    "series": "Series",
+    "issues": "Issues",
+    "wanted": "Wanted"
+  },
+  "photoprism": {
+    "videos": "Videos",
+    "albums": "Albums",
+    "photos": "Photos",
+    "people": "People"
+  },
+  "diskstation": {
+    "days": "Days",
+    "uptime": "Uptime",
+    "volumeAvailable": "Available"
+  },
+  "spaceflight": {
+    "net": "Net",
+    "mission": "Mission",
+    "status": "Status"
+  }
 }
